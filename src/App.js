@@ -5,6 +5,7 @@ import Works from "./components/pages/Works";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
 
