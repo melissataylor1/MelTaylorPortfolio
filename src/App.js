@@ -9,8 +9,8 @@ import Footer from "./components/Footer";
 function App() {
 
   const [currentPage, setCurrentPage] = useState('Home');
-
-  function renderNavChoice() {
+  const handlePageChange = (page) => setCurrentPage(page);
+ const renderNavChoice = () => {
     if (currentPage === 'Home') {
       return <Home />;
     }
@@ -25,7 +25,7 @@ function App() {
     }
   };
   
-  const handlePageChange = (page) => setCurrentPage(page);
+  
 
   return (
     <main>
