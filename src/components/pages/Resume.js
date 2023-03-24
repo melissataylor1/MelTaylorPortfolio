@@ -1,9 +1,21 @@
+
 import React from 'react';
-import "../../style/Resume.css";
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import '../../style/Resume.css';
 
 const Resume = () => {
   return (
-        <p>TEST</p>
+    <Container className="resume-section">
+      <Row>
+        <Col>
+          <h2>Resume</h2>
+          <Button variant="dark" href="" download> 
+            Download Resume
+          </Button>
+         
+        </Col>
+      </Row>
+    </Container>
   );
 };
 

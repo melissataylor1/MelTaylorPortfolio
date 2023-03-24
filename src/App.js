@@ -5,17 +5,18 @@ import Works from "./components/pages/Works";
 import Contact from "./components/pages/Contact";
 import Resume from "./components/pages/Resume";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import "./App.css";
 
-function App() {
-
+export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');
+
   const handlePageChange = (page) => setCurrentPage(page);
- const renderNavChoice = () => {
+
+  const renderPage = () => {
     if (currentPage === 'Home') {
       return <Home />;
     }
-   if (currentPage === 'Portfolio') {
+   if (currentPage === 'Works') {
       return <Works />;
     }
     if (currentPage === 'Resume') {
@@ -29,13 +30,19 @@ function App() {
   
 
   return (
-    <main>
-      <Navbar currentPage={ currentPage } handlePageChange={ handlePageChange } />
-      { renderNavChoice() }
-      <Footer />
-    </main>
-  );
+    <>
+    <div>
+      {}
+      <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+      {}
+      {renderPage()}
+    </div>
 
+    
+    <footer>
+    <Footer/>
+    </footer>
+    </>
+  );
 }
 
-export default App;
