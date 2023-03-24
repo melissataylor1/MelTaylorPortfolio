@@ -1,51 +1,36 @@
 import React from 'react'
-// Logo SVG's
-import githubsvg from '../../../../assets/icons/github.svg'
-import linkedinsvg from '../../../../assets/icons/linkedin.svg'
-import contact from '../../../../assets/icons/contact.svg'
-
-/***********TOP WORDS */
+import Links from './partials/Links'
+import contact from '../assets/icons/contact.svg'
 
 
+function Contact() {
+  return (
+    <div className='md:w-full flex flex-col overflow-x-hidden'>
+    {/* Section Heading */}
+    <header className='sectionheading md:sectionheading-md'>
+        <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
+        <h2 className='md:animate-slideX2'>Contact</h2>
+    </header>
+    <div className='flex flex-col items-center overflow-hidden'>
+    <h1 className='text-center mt-12 sm:text-6xl text-5xl font-heading md:animate-slideXL'>Get in touch</h1>
+    <div className='w-full h-[800px] flex flex-col justify-evenly items-center sm:text-2xl text-xl overflow-x-hidden'>
+      <div className={'contact'}>
 
-/*********BOTTOM LINKS */
-
-const links = [
-    {
-        name: "GitHub",
-        url: "https://github.com/melissataylor1",
-        icon: githubsvg,
-        color: "#FFF"
-    },
-    {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/melissa-taylor-aba356217/",
-        icon: linkedinsvg,
-        color: "#FFF"
-    }
-
-  ]
-
-  function Links() {
-
-    
-    const linkCards = links.map((link, index) => {
-       
-        return (
-            <a className={`sm:w-[375px] w-[200px] border m-4 rounded hover:scale-[1.02] hover:border-[${link.color}] transition-all`} href={link.url} target='_blank' rel="noreferrer">
-                <div className='flex items-center justify-between p-4'>
-                    <img className='w-6' src={link.icon} alt={link.name} />
-                    <p className='text-lg'>{link.name}</p>
+          <form class="form">
+              <h2>Contact Me</h2>
+              <p type="Name:"><input placeholder="Your name"></input></p>
+              <p type="Email:"><input placeholder="Email here"></input></p>
+              <p type="Message:"><input placeholder="Your message here."></input></p>
+              <button>Send Message</button>
+          </form>
+                <div className='md:animate-slideX3 overflow-x-hidden'>
+                    <Links />
                 </div>
-            </a>
-        )
-    })
-
-    return (
-        <div className='flex flex-col justify-center items-center overflow-x-hidden'>
-            {linkCards}
-        </div>
-    );
+            </div>
+</div>
+</div>
+    </div>
+  )
 }
 
-export default Links;
+export default Contact;

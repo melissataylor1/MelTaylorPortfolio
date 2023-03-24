@@ -24,7 +24,7 @@ function Nav({ view, setView }) {
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
           <p className='navlabel'>About Me</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("works") }}>
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
           <p>Projects</p>
         </div>

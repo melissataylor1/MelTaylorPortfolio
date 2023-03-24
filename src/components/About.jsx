@@ -1,6 +1,6 @@
 import React from "react";
-import "../style/Home.css";
-const Home = () => {
+import "../style.css";
+const About = () => {
   return (
     <section className="home">
       <div className="container">
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
