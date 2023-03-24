@@ -80,7 +80,7 @@ function Navbar({ view, setView }) {
   return (
   //DESKTOP
     <>
-      <nav className=' h-1/3 hidden md:flex flex-col justify-between w-full' >
+      <nav className=' h-1/3 hidden md:flex flex-col justify-between w-full text-slate-50' >
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("about") }}>
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
           <p className='navlabel'>About Me</p>
