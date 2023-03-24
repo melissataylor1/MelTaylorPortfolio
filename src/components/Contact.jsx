@@ -2,8 +2,9 @@ import React from 'react'
 // Logo SVG's
 import githubsvg from '../../../../assets/icons/github.svg'
 import linkedinsvg from '../../../../assets/icons/linkedin.svg'
+import contact from '../../../../assets/icons/contact.svg'
 
-
+/***********TOP WORDS */
 
 
 
