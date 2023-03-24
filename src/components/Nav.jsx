@@ -3,10 +3,10 @@ import React from "react";
 import { useState } from "react";
 
 // SVG Icons
-import aboutsvg from "../../assets/icons/about.svg"
-import skillsvg from "../../assets/icons/skills.svg"
-import projectsvg from "../../assets/icons/projects.svg"
-import contactsvg from "../../assets/icons/contact.svg"
+import aboutsvg from "../assets/icons/about.svg"
+import skillsvg from "../assets/icons/skills.svg"
+import projectsvg from "../assets/icons/projects.svg"
+import contactsvg from "../assets/icons/contact.svg"
 /*
 import githubsvg from '../../assets/logos/github.svg'
 import linkedinsvg from '../../assets/logos/linkedin.svg'
