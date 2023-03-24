@@ -31,9 +31,9 @@ function Header(props) {
                 {/* Gmail */}
                 <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:meltee@live.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={gmsvg} alt="Mail logo." /></a>
                 {/* Linked In */}
-                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/melissa-taylor-aba356217/" target='_blank' rel="noreferrer" name="Link to Joe's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
+                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/melissa-taylor-aba356217/" target='_blank' rel="noreferrer" name="Link to Mel's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
                 {/* GitHub */}
-                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/melissataylor1" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
+                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/melissataylor1" target='_blank' rel="noreferrer" name="Link to Mel's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
             </ul>
         </header>
     )
