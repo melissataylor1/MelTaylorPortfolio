@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles.css';
 // SVG Import
 import skills from '../assets/icons/skills.svg'
 // Front End
@@ -23,9 +24,11 @@ import figma from "../assets/icons/figma.svg"
 
 
 //**********SKILLS */
-function Skills(props) {
+function Resume(props) {
     return (
-        <div className='md:w-auto flex flex-col justify-top items-center'>
+
+        <div className='md:w-full flex flex-col overflow-x-hidden'>
+        
             <header className='sectionheading md:sectionheading-md'>
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
                 <h2 className='md:animate-slideX2'>Skills</h2>
@@ -99,7 +102,7 @@ function Skills(props) {
                         </div>
                     </div>
                 </div>
-// Other
+
    {/* Additional Skills */}
    <div className='skill-container'>
                    
@@ -142,4 +145,4 @@ function Skills(props) {
     )
 }
 
-export default Skills;
+export default Resume;

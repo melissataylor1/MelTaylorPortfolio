@@ -58,7 +58,7 @@ var styles = {
   }
 }
 
-function Nav({ view, setView }) {
+function Navbar({ view, setView }) {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -89,9 +89,9 @@ function Nav({ view, setView }) {
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
           <p>Projects</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("skills") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("resume") }}>
           <img className="nav-icon" src={skillsvg} alt="lightbulb icon" />
-          <p>Skills</p>
+          <p>Resume</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("contact") }}>
           <img className="nav-icon" src={contactsvg} alt="connect icon" />
@@ -108,13 +108,13 @@ function Nav({ view, setView }) {
              <img src={aboutsvg} alt="about icon" />
              <p>About Me</p>
            </div>
-           <div className="mobile-link" onClick={() => {  handleMobileNav("projects") }}>
+           <div className="mobile-link" onClick={() => {  handleMobileNav("works") }}>
              <img src={projectsvg} alt="briefcase icon" />
              <p>Projects</p>
            </div>
-           <div className="mobile-link" onClick={() => { handleMobileNav("skills") }}>
+           <div className="mobile-link" onClick={() => { handleMobileNav("resume") }}>
              <img src={skillsvg} alt="lightbulb icon" />
-             <p>Skills</p>
+             <p>Resume</p>
            </div>
            <div className="mobile-link" onClick={() => { handleMobileNav("contact") }}>
              <img src={contactsvg} alt="connect icon" />
@@ -140,5 +140,5 @@ function Nav({ view, setView }) {
   )
 }
 
-export default Nav;
+export default Navbar;
 
