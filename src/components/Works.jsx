@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./partials/Project";
+import projectlogo from '../assets/icons/projects.svg'
 import "../styles.css";
 
 // Project array that contains the title, image, app link, and repo link for each project.
@@ -23,8 +24,17 @@ const projects = [
 // Portfolio section that links the projects array to the Project component.
 const Portfolio = () => {
   return (
+    <div className='md:w-full flex flex-col overflow-x-hidden text-slate-50'>
     <section className="portfolio">
-      <h2 className="text-center">Portfolio</h2>
+
+
+
+    {/* Section Heading */}
+    <header className='sectionheading md:sectionheading-md'>
+        <img src={projectlogo} alt="Briefcase" className='hidden md:block md:heading-icon md:animate-slideX' />
+        <h2 className='md:animate-slideX2'>Portfolio</h2>
+    </header>
+  
       <div className="projects-container">
         {projects.map((project, index) => (
           <Project
@@ -37,6 +47,7 @@ const Portfolio = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 
