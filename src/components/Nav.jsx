@@ -85,7 +85,7 @@ function Navbar({ view, setView }) {
           <img className="nav-icon" src={aboutsvg} alt="about icon" />
           <p className='navlabel'>About Me</p>
         </div>
-        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("works") }}>
+        <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
           <p>Projects</p>
         </div>
@@ -108,7 +108,7 @@ function Navbar({ view, setView }) {
              <img src={aboutsvg} alt="about icon" />
              <p>About Me</p>
            </div>
-           <div className="mobile-link" onClick={() => {  handleMobileNav("works") }}>
+           <div className="mobile-link" onClick={() => {  handleMobileNav("projects") }}>
              <img src={projectsvg} alt="briefcase icon" />
              <p>Projects</p>
            </div>

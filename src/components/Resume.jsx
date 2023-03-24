@@ -27,7 +27,7 @@ import figma from "../assets/icons/figma.svg"
 function Resume(props) {
     return (
 
-        <div className='md:w-full flex flex-col overflow-x-hidden'>
+        <div className='md:w-full flex flex-col overflow-x-hidden text-slate-50'>
         
             <header className='sectionheading md:sectionheading-md'>
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />

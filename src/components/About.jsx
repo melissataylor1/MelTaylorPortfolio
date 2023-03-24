@@ -6,7 +6,7 @@ import "../styles.css";
 
 function About(props) {
     return (
-        <div className='flex flex-col justify-top items-center md:w-auto'>
+        <div className='md:w-full flex flex-col overflow-x-hidden text-slate-50'>
             <header className='sectionheading md:sectionheading-md'>
                 <img className='md:block md:heading-icon md:animate-slideX' src={aboutme} alt="User icon on a book"  />
                 <h2 className='md:animate-slideX2'>About Me</h2>

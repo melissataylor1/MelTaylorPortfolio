@@ -5,7 +5,7 @@ import contact from '../assets/icons/contact.svg'
 
 function Contact() {
   return (
-    <div className='md:w-full flex flex-col overflow-x-hidden'>
+    <div className='md:w-full flex flex-col overflow-x-hidden text-slate-50'>
     {/* Section Heading */}
     <header className='sectionheading md:sectionheading-md'>
         <img src={contact} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
