@@ -1,6 +1,26 @@
 import React from 'react';
 // SVG Import
 import skills from '../assets/icons/skills.svg'
+// Front End
+import js from '../assets/icons/javascript.svg'
+import css from "../assets/icons/css.svg"
+import html from "../assets/icons/html.svg"
+import bootstrap from "../assets/icons/bootstrap.svg"
+import jquery from "../assets/icons/jquery.svg"
+import react from "../assets/icons/react.svg"
+import tailwind from "../assets/icons/tailwind.svg"
+// Back End
+import nodejs from "../assets/icons/nodejs.svg"
+import mongodb from "../assets/icons/mongodb.svg"
+import mysql from "../assets/icons/mysql.svg"
+import express from "../assets/icons/express.svg"
+import graphql from "../assets/icons/graphql.svg"
+import heroku from "../assets/icons/heroku.svg"
+import photoshop from "../assets/icons/photoshop.svg"
+import jest from "../assets/icons/jest.svg"
+import gitbash from "../assets/icons/git-bash.svg"
+import figma from "../assets/icons/figma.svg"
+
 
 //**********SKILLS */
 function Skills(props) {

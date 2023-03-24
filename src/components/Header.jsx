@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from './Nav'
 import headshot from '../assets/images/heart.png'
-import resume from '../assets/melissataylor_resume.pdf'
+import resume from '../assets/melissataylor_resume_2023.pdf'
 // SVG Import
 import linkedinsvg from '../assets/icons/linkedin.svg'
 import githubsvg from '../assets/icons/github.svg'
