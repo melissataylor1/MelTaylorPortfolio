@@ -1,13 +1,42 @@
-import React from 'react';
-import '../style/Header.css';
+// Import React
+import React from "react";
+import Navbar from './Nav'
+import headshot from '../assets/images/heart.png'
+import resume from '../assets/melissataylor_resume.pdf'
+// SVG Import
+import lisvg from '../assets/icons/linkedin.svg'
+import ghsvg from '../assets/icons/github.svg'
+import gmsvg from '../assets/icons/mail.svg'
 
-// Header component that displays the name of the portfolio.
-const Header = () => {
-  return (
-    <header className="header">
-      <h1 className="header-title">Melissa Taylor</h1>
-    </header>
-  );
-};
+
+
+// The sidebar is on every page  
+function Header(props) {
+
+    return (
+        <header className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
+            {/* Nameplate*/}
+            <section className="flex justify-evenly items-center md:mb-10 md:w-full">
+                {/* Add status ping to picture */}
+                <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />
+                <h1 className='text-center text-xl font-display font-semibold tracking-wide ml-4'>Mel Taylor</h1>
+            </section>
+            {/* Navbar */}
+            <Navbar view={props.view} setView={props.setView}/>
+            {/* Resume Download */}
+            <a className="bg-highlight text-black p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500 hover:resume-hover md:block" href={resume} download="joes-resume">Download Resume</a>
+      
+            {/* Contact Links */}
+            <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>
+                {/* Gmail */}
+                <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:meltee@live.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={gmsvg} alt="Mail logo." /></a>
+                {/* Linked In */}
+                <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/melissa-taylor-aba356217/" target='_blank' rel="noreferrer" name="Link to Joe's LinkedIn"><img className="contactlink" src={lisvg} alt="LinkedIn logo" /></a>
+                {/* GitHub */}
+                <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/melissataylor1" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink" src={ghsvg} alt="GitHub logo" /></a>
+            </ul>
+        </header>
+    )
+}
 
 export default Header;
