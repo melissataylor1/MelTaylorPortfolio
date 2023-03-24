@@ -17,7 +17,7 @@ function Header(props) {
         <header className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
             {/* Nameplate*/}
             <section className="flex justify-evenly items-center md:mb-10 md:w-full">
-                {/* Add status ping to picture */}
+            
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />
                 <h1 className='text-center text-xl font-display font-semibold tracking-wide ml-4'>Mel Taylor</h1>
             </section>

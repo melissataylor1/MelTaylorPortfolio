@@ -7,10 +7,9 @@ import aboutsvg from "../../assets/icons/about.svg"
 import skillsvg from "../../assets/icons/skills.svg"
 import projectsvg from "../../assets/icons/projects.svg"
 import contactsvg from "../../assets/icons/contact.svg"
-import ghsvg from '../../assets/logos/github.svg'
-import lisvg from '../../assets/logos/linkedin.svg'
-import gmsvg from '../../assets/icons/mail.svg'
-import moresvg from '../../assets/icons/star.svg'
+import githubsvg from '../../assets/logos/github.svg'
+import linkedinsvg from '../../assets/logos/linkedin.svg'
+import mailsvg from '../../assets/icons/mail.svg'
 
 // TODO: Better hover effects and active styles
 
@@ -132,16 +131,7 @@ function Nav({ view, setView }) {
               <p>More</p>
             </div> */}
           </div>
-          <div className="w-full">
-            <ul className='mobile-social flex justify-evenly items-center h-1/3'>
-              {/* Linked In */}
-              <a className="transition-transform-colors inline-block hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/joerdixon/" target='_blank' rel="noreferrer" name="Link to Joe's LinkedIn"><img className="contactlink w-14" src={lisvg} alt="LinkedIn logo" /></a>
-              {/* GitHub */}
-              <a className="transition-transform-colors inline-block hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/joerdixon" target='_blank' rel="noreferrer" name="Link to Joe's GitHub Profile"><img className="contactlink w-14" src={ghsvg} alt="GitHub logo" /></a>
-              {/* Gmail */}
-              <a className="transition-transform-colors inline-block hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:joseph35dixon@gmail.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink w-14" src={gmsvg} alt="Mail logo." /></a>
-            </ul>
-          </div>
+         
         </Menu>
       </nav>
     </>
