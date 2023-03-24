@@ -1,5 +1,6 @@
 
 
+
 import React from "react";
 
 export default function Navbar({ currentPage, handlePageChange }) {
@@ -29,7 +30,7 @@ export default function Navbar({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange('Works')}
               className={ currentPage === 'Works' ? 'nav-link active' : 'nav-link'}
             >
-                Portfolio
+                Works
             </a>
           </li>
           <li className='nav-item mx-2'>

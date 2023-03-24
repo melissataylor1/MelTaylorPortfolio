@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Navbar from "./components/Nav";
-import Home from "./components/pages/Home";
-import Works from "./components/pages/Works";
-import Contact from "./components/pages/Contact";
-import Resume from "./components/pages/Resume";
+import Home from "./components/Home";
+import Works from "./components/Works";
+import Contact from "./components/Contact";
+import Resume from "./components/Resume";
 import Footer from "./components/Footer";
-import "./App.css";
+import './styles.css'
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('Home');

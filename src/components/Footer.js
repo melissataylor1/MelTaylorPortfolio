@@ -1,10 +1,14 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import '../style/Footer.css';
 
-export default function Footer() {
+// Footer component that displays the links to the GitHub, LinkedIn, and Twitter accounts.
+const Footer = () => {
   return (
-  <footer className="d-flex flex-column justify-content-center align-items-center" style={ {"height": "60px"} }>
-  <p> TEST</p>
-  </footer>
-  )
-}
+    <footer className="footer">
+  
+    </footer>
+  );
+};
 
+export default Footer;
