@@ -8,7 +8,7 @@ function About(props) {
     return (
         <div className='flex flex-col justify-top items-center md:w-auto'>
             <header className='sectionheading md:sectionheading-md'>
-                <img src={aboutme} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
+                <img className='md:block md:heading-icon md:animate-slideX' src={aboutme} alt="User icon on a book"  />
                 <h2 className='md:animate-slideX2'>About Me</h2>
             </header>
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>

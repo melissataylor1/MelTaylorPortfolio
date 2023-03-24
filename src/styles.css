@@ -1,4 +1,35 @@
 /* Root Variables */
+:root {
+    /* Colors */
+    /* Background */
+    --main-bg: #111;
+    --alt-bg: #2627273a;
+    /* Text */
+    --main-text: #eee;
+    --alt-text: #bbb;
+    --highlight: #FFAAA5;
+    --highlight-hover: #ffc2bf;
+    /* Other */
+    --border-color: #555;
+    --main-type-color: #ddd;
+    --secondary-type-color: #bbb;
+    --pop-type-color: #FFAAA5;
+    /* Sizes */
+    --p-size: .8rem;
+    /* Fonts */
+    --display-font: "Syne";
+    --heading-font: "Inter Tight";
+    --main-font: "Karla";
+}
+
+body {
+    background-color: #111;
+}
+
+a {
+    text-decoration: none;
+    color: #ddd;
+}
 
 /* Tailwind Import */
 @tailwind base;
@@ -6,16 +37,121 @@
 @tailwind utilities;
 
 /* Tailwind Component Classes */
+@layer components {
 
     /*================================ NAVBAR ================================*/
 
-   
+    /* Links in the sidebar */
+    .navlink {
+        /* Layout */
+        width: 80%;
+        margin: 0 auto;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Deco */
+        text-align: left;
+        font-size: large;
+        font-family: var(--heading-font);
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
 
-  
+    .navlabel {
+        font-family: var(--heading-font);
+    }
+
+    .nav-icon {
+        /* Layout */
+        margin-right: 35px;
+    }
+
+    .contactlink {
+        padding: 10px;
+        width: 55px;
+    }
+
+    /* NAVIGATION HOVER EFFECTS */
+
+    .navhover {
+        color: var(--pop-type-color);
+        transform: translateX(5px);
+    }
+
+    .resume-hover {
+        background-color: var(--highlight-hover);
+        border-radius: 5px;
+    }
+
+
+    /* Having trouble getting custom border in tailwind so this class is the quick fix */
+
+    .header-border {
+        border-right: 1px solid var(--border-color)
+    }
+
     /* MOBILE NAV */
 
-   
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        left: 36px;
+        top: 36px;
+    }
 
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+        background: #fff;
+    }
+
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+        background: #a90000;
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+        height: 24px;
+        width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+        background: #fff;
+    }
+
+    .mobile-menu {
+        background: #111;
+    }
+
+    .mobile-link {
+        /* Layout */
+        width: 65%;
+        margin: 0 auto;
+        height: 15vh;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* Deco */
+        text-align: left;
+        font-size: larger;
+        font-family: var(--heading-font);
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+
+    .mobile-social {
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+
+
+
+    /*================================ PAGES ================================*/
 
 
     /*================================ ABOUT ================================*/
@@ -23,21 +159,336 @@
 
     /*================================ PROJECTS ================================*/
 
-  
+    /* The container that populates projects */
+    .project-container {
+        /* Layout */
+        height: 94vh;
+        margin: 0 auto;
+        padding: 3vw;
+        /* Deco */
+        background-color: var(--background-color);
+        border-radius: 20px;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .project-container-md {
+        /* Layout */
+        height: 92vh;
+        margin: 0 auto;
+        padding: 3vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+        /* Deco */
+        background-color: var(--background-color);
+        border-radius: 20px;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* Project cards */
+    .project-hero {
+        width: 100%;
+    }
+
+    .project-card {
+        text-align: right;
+        width: 90%;
+        box-shadow: 7px 7px 12px black;
+        background-color: var(--alt-bg);
+        margin-top: 30px;
+        /* Transitions */
+        transition: all .2s ease-in-out;
+    }
+
+    .project-card-md {
+        width: 46%;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        /* Deco */
+        text-align: center;
+        box-shadow: 7px 7px 12px black;
+        background-color: var(--alt-bg);
+        border-radius: .5rem;
+    }
+
+    .project-card-hover {
+        transform: translateY(-1%);
+        box-shadow: 0px 0px 20px #666;
+    }
+
+    .project-desc-md {
+        /* Layout */
+        /* Flex Settings */
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        overflow: auto;
+    }
+
+    .project-desc {
+        padding: 20px;
+        text-align: left;
+        height: 12vh;
+    }
+
+    .title-bar {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+    }
+
     /*================================ SKILLS ================================*/
 
-    /*================================ RESUME ================================*/
+    .skill-container {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        overflow-x: hidden;
+    }
 
-    
+    .skillsection {
+        /* Layout */
+        width: 90%;
+        height: 75vh;
+        margin-bottom: 3vh;
+        overflow-x: hidden;
+        /* Flex Settings */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        /* Deco */
+        border-radius: .5rem;
+    }
+
+    .skillsection-md {
+        /* Layout */
+        width: 90%;
+        height: 75vh;
+        overflow-y: auto;
+        /* Flex Settings */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        /* Deco */
+        border-radius: .5rem;
+    }
+
+    .ss-head {
+        /* Layout */
+        margin: 2rem;
+        overflow-x: hidden;
+        /* Deco */
+        font-size: xx-large;
+        font-family: var(--heading-font);
+    }
+
+    .skill {
+        /* Layout */
+        width: 35%;
+        height: 13vh;
+        margin: 1rem;
+        /* Flex Settings */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .skill-icon {
+        width: 40px;
+    }
 
     /*================================ CONTACT ================================*/
 
     /*================================== MORE ==================================*/
 
- 
+    .more-section-r {
+        /* Layout */
+        width: 100%;
+        text-align: right;
+        padding-top: 50px;
+        /* Flex Settings */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-section-l {
+        /* Layout */
+        width: 100%;
+        text-align: left;
+        padding-top: 50px;
+        /* Flex Settings */
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more-section {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .more-heading-md {
+        /* Layout */
+        /* Decoration */
+        font-size: 4rem;
+        font-family: var(--heading-font);
+    }
+
+    .more-heading {
+        padding: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 2rem;
+        /* Decoration */
+        font-family: var(--heading-font);
+    }
+
     /* =============================== SITEWIDE =============================== */
 
+    .sectionheading-md {
+        margin-top: 0;
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        font-size: x-large;
+        text-align: left;
+        display: flex;
+        font-family: var(--heading-font);
+    }
+
+    .sectionheading {
+        background-color: var(--alt-bg);
+        width: 100%;
+        font-size: xx-large;
+        text-align: center;
+        padding: 5px;
+        font-family: var(--heading-font);
+    }
+
+    .heading-icon {
+        margin-right: 15px;
+        width: 25px;
+    }
+}
 
 
 /*================================ SCROLLBAR ================================*/
 
+::-webkit-scrollbar {
+    width: .4vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #444;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFF;
+    border-radius: 10px;
+}
+
+/* TEST */
+
+.container {
+    position: relative;
+    width: 320px;
+    margin: 100px auto 0 auto;
+    perspective: 1000px;
+}
+
+.carousel {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: rotate360 60s infinite forwards linear;
+}
+
+.carousel__face {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    top: 20px;
+    left: 10px;
+    right: 10px;
+    background-size: cover;
+    border-radius: 100px;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+div span {
+    margin: auto;
+    font-size: 2rem;
+}
+
+
+.carousel__face:nth-child(1) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(0deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(2) {
+    background-image: url("./assets/icons/javascript.svg");
+    transform: rotateY(40deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(3) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(80deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(4) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(120deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(5) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(160deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(6) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(200deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(7) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(240deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(8) {
+    background-image: url("./assets/icons/express.svg");
+    transform: rotateY(280deg) translateZ(430px);
+}
+
+.carousel__face:nth-child(9) {
+    background-image: url("./assets/icons/express.svg  ");
+    transform: rotateY(320deg) translateZ(430px);
+}
+
+
+
+@keyframes rotate360 {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(-360deg);
+    }
+}

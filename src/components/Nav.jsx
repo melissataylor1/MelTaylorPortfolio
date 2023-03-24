@@ -8,9 +8,9 @@ import skillsvg from "../assets/icons/skills.svg"
 import projectsvg from "../assets/icons/projects.svg"
 import contactsvg from "../assets/icons/contact.svg"
 
-import githubsvg from '../../assets/logos/github.svg'
-import linkedinsvg from '../../assets/logos/linkedin.svg'
-import mailsvg from '../../assets/icons/mail.svg' 
+import githubsvg from '../assets/icons/github.svg'
+import linkedinsvg from '../assets/icons/linkedin.svg'
+import mailsvg from '../assets/icons/mail.svg' 
 
 // Mobile Menu Styles
 var styles = {
