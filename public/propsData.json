@@ -39,3 +39,43 @@
           "description": "Named one of the top 15 international media schools by the Hollywood reporter, this program taught me fundementals of audience engagement and storytelling. Throughout my 4 years in this program, my studies were rooted in interaction design and media theory, programming and robotics, video and sound production, art history, and digital fabrication. "
         }
       ],
+      "work": [
+        {
+          "company": "Self-Employed",
+          "title": "Freelance Digital Designer",
+          "years": "2018 - now",
+          "description": "Deliverabes include: Marketing and promotional material (print, digital, video, and 3D), motion/graphic design, copywriting, podcast & video production, and web design.",
+          "description2": "Clients include: small businesses, Bay Street financial services companies, radio stations, and startups"
+        },
+        {
+          "company": "Optimize Wealth Management",
+          "title": "Senior Marketing Specialist",
+          "years": "October 2021 - July 2022",
+          "description": "Designed and created the company’s public website,  internal web portal, and various interactive investor-service tools. Additionally, I created and oversaw the development and implementation of various marketing campaigns that contributed to a substantial growth in business assets during my tenure."
+        },
+        {
+          "company": "Dr. Roozbeh Manshaei , Senior Bio-Informatician, Ted Rogers Cardiac Genome Clinic ",
+          "title": "UX Assistantr",
+          "years": "January 2021 - June 2021",
+          "description": "Utilized Blender, Fusion 360 and Unreal Game Engine to design and execute, from thousands of 2D data points, a 3D user experience which allows users enhanced and more eﬀective data visualization and manipulation capability. "
+        }
+      ],
+      "skills": { 
+        "front-end":[
+        {
+          "bage": "HTML"
+        }
+        
+      ],
+      "back-end": [
+        {
+            "badge": "HTML"
+          }
+      ],
+      "Other": [
+        {
+            "badge": "HTML"
+          }
+      ]
+    },
+   
