@@ -2,9 +2,12 @@ import React from "react";
 import headshot from '../assets/images/heart.png'
 import aboutme from '../assets/icons/about.svg'
 import "../styles.css";
+//ABOUT PROPS
+function About() {
+    return <Greeting name="Nathan" age={27} occupation="Software Developer" />;
+  }
 
-
-function About(props) {
+function Greeting(props) {
     return (
         <div className='md:w-full flex flex-col overflow-x-hidden text-slate-50'>
             <header className='sectionheading md:sectionheading-md'>
@@ -14,7 +17,7 @@ function About(props) {
             <div className='flex flex-col justify-between items-center overflow-y-auto overflow-x-hidden'>
                 <div className='flex flex-col-reverse md:flex-row justify-evenly items-center mt-20'>
                     <div className='flex flex-col justify-evenly items-center md:items-start h-full'>
-                        <h1 className='md:text-6xl text-5xl font-bold font-display m-10 md:m-0 md:animate-slideXL2'>Melissa Taylor</h1>
+                        <h1 className='md:text-6xl text-5xl font-bold font-display m-10 md:m-0 md:animate-slideXL2'>{props.name}</h1>
                  
                         <h2 className='md:text-3xl text-2xl font-heading md:animate-slideXL3'>Full Stack Web Developer & Designer</h2>
                     </div>

@@ -7,8 +7,6 @@ import Resume from "./Resume";
 import '../styles.css'
 
 
-// This component is checking for the view state set by the nav bar and rendering the appropriate content.
-
 function Home(props) {
     switch (props.view) {
         case "about":

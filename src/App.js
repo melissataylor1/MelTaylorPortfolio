@@ -1,14 +1,10 @@
-import React, { useState } from 'react';
-import Header from "./components/Header"
-import Home from './components/Home';
-import './styles.css'
-
-
-
+import React, { useState } from "react";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import "./styles.css";
 
 function App() {
-
-  const [view, setView] = useState("about")
+  const [view, setView] = useState("about");
 
   return (
     <div className="App h-screen mx-auto my-0 bg-main-bg md:flex flex-row justify-between text-main-text font-main">
@@ -17,69 +13,7 @@ function App() {
       {/* Page contains the conditionally rendered content based on view state.*/}
       <Home view={view} />
     </div>
-    
   );
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-export default function App() {
-  const [currentPage, setCurrentPage] = useState('About');
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
-  const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
-   if (currentPage === 'Works') {
-      return <Works />;
-    }
-    if (currentPage === 'Resume') {
-      return <Resume />;
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
-  };
-  
-  
-
-  return (
-    <div className="App h-screen mx-auto my-0 bg-main-bg md:flex flex-row justify-between text-main-text font-main">
-    <div>
-      {}
-      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-      {}
-      {renderPage()}
-    </div>
-
-    
-    <footer>
-    <Footer/>
-    </footer>
-    </div>
-  );
-}
-*/
