@@ -1,0 +1,41 @@
+{
+    "main": {
+      "name": "Melissa Taylor",
+      "description": "Full Stack Web Developer & Designer",
+      "image": "profilepic.jpg",
+      "bio": "Welcome to my portfolio! 👋 My name is Melissa and I am a full stack web developer and designer.  With diverse experience in both design and technical development, I focus on creating effective and engaging user experiences across all media platforms. Thanks for checking me out 🎉",
+      "contactmessage": "Interested in contacting me? Reach out! I'd love to chat :)",
+      "email": "meltee@live.com",
+      "phone": "6475218593",
+      "github": "https://github.com/melissataylor1",
+      "address": {
+        "city": "Toronto",
+        "Province": "Ontario"
+      },
+      "resumedownload": "../src/assets/melissataylor_resume_2023.pdf",
+      "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/melissa-taylor-aba356217/"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/melissataylor1"
+        }
+      ]
+    },
+    "resume": {
+      "education": [
+        {
+          "school": "University of Toronto",
+          "degree": "Full Stack Web Development - Certificate of Completion",
+          "graduated": "April 2023",
+          "description": "This Fullstack Web Development course taught Full Stack Web Development utilizing the MERN stack (MongoDB, Express, React.js, and Node.js), as well as API interactions. This course also taught HTML, CSS, Javascript, and how to utilize Git/Github in a production environment."
+        },
+        {
+          "school": "Toronto Metropolitan University (formerly Ryerson University)",
+          "degree": "B.A. - Media Production",
+          "graduated": "August 2021",
+          "description": "Named one of the top 15 international media schools by the Hollywood reporter, this program taught me fundementals of audience engagement and storytelling. Throughout my 4 years in this program, my studies were rooted in interaction design and media theory, programming and robotics, video and sound production, art history, and digital fabrication. "
+        }
+      ],
