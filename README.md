@@ -2,75 +2,54 @@
 
 My Web Development &amp; Design Portfolio - Created Using React
 
----
+![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-# Getting Started with Create React App
+## Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created using the Model, View, Controller (mvc) paradigm and is hosted on Heroku with Heroku Deployment. it can also be run locally using the files from the github repository. To do this, the Installation and Usage sections must be read. Node.js and express are used for the server and sequelize is utilized to access the mysql database called "tech_blog_db". this database stores all user, post, and comment information. The live version is hosted on Heroku, with the JAWSDB add on to store the data. the passwords are all encrypted with the bcrypt Node.js package and the HTML views are created with Handlebars.js.
 
-## Available Scripts
+## Link to App
 
-In the project directory, you can run:
+https://bytesizedtechblog.herokuapp.com/
 
-### `npm start`
+## Screenshot of App
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Instructions for Use
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
 
-### `npm test`
+Clone this repository to your local machine.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Right click on server.js and select "Open in Integrated Terminal"
 
-### `npm run build`
+There should be a package.json file included. To install the various npm packages used run the command
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```md
+npm i
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License
 
-### `npm run eject`
+MIT license.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Questions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+meltee@live.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Credits
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Primary Tutor: Martin Gulberg
 
-## Learn More
+Tutorial with React Burger Menu
+https://www.digitalocean.com/community/tutorials/react-react-burger-menu-sidebar
+https://www.npmjs.com/package/react-burger-menu
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React Burger Menu Github
+https://github.com/negomi/react-burger-menu
+https://negomi.github.io/react-burger-menu/
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sidebar with collabsable elements
+https://bbbootstrap.com/snippets/bootstrap-collapsible-sidebar-navbar-74494348
+https://blog.logrocket.com/how-create-multilevel-dropdown-menu-react/

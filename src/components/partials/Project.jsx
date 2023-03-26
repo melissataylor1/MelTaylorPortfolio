@@ -25,7 +25,6 @@ const projects = [
 
 function Project() {
     // For each project, map its properties onto html and add it to projectCards array.
-    // TODO: Drop down for description on project cards.
     const projectCards = projects.map((proj, index) => {
         return (
             // The whole card will be a link

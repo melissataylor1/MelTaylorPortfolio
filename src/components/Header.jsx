@@ -7,15 +7,15 @@ import resume from '../assets/melissataylor_resume_2023.pdf'
 import linkedinsvg from '../assets/icons/linkedin.svg'
 import githubsvg from '../assets/icons/github.svg'
 import mailsvg from '../assets/icons/mail.svg'
-
-
+//background
 
 // The sidebar is on every page  
 function Header(props) {
 
     return (
-        <header className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
-            {/* Nameplate*/}
+        
+        <header id="background" className='flex my-0 w-5/6 h-16 md:h-auto md:flex-col justify-between md:w-64 md:min-w-[16rem] md:header-border md:p-5 md:pt-10'>
+            {/* Namep*/}
             <section className="flex justify-evenly items-center md:mb-10 md:w-full">
             
                 <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />

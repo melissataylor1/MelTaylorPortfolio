@@ -17,6 +17,7 @@ function App() {
       {/* Page contains the conditionally rendered content based on view state.*/}
       <Home view={view} />
     </div>
+    
   );
 }
 

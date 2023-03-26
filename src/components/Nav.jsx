@@ -1,6 +1,7 @@
 // Import React
 import React from "react";
 import { useState } from "react";
+//burger menu for mobile
 import { slide as Menu } from 'react-burger-menu'
 // SVG Icons
 import aboutsvg from "../assets/icons/about.svg"
@@ -11,8 +12,9 @@ import contactsvg from "../assets/icons/contact.svg"
 import githubsvg from '../assets/icons/github.svg'
 import linkedinsvg from '../assets/icons/linkedin.svg'
 import mailsvg from '../assets/icons/mail.svg' 
+import resume from '../assets/melissataylor_resume_2023.pdf'
 
-// Mobile Menu Styles
+// Mobile Burger Menu Styles
 var styles = {
   bmBurgerButton: {
     position: 'fixed',
@@ -57,7 +59,7 @@ var styles = {
     background: 'rgba(0, 0, 0, 0.3)'
   }
 }
-
+//SETS 'VIEW' PROPS FOR NAV BAR
 function Navbar({ view, setView }) {
 
   const [menuOpen, setMenuOpen] = useState(false);
@@ -87,7 +89,7 @@ function Navbar({ view, setView }) {
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("projects") }}>
           <img className="nav-icon" src={projectsvg} alt="briefcase icon" />
-          <p>Projects</p>
+          <p>Works</p>
         </div>
         <div className="navlink hover:navhover" onClick={() => { handleMobileNav("resume") }}>
           <img className="nav-icon" src={skillsvg} alt="lightbulb icon" />
@@ -100,7 +102,7 @@ function Navbar({ view, setView }) {
         
       </nav>
 
-       
+    {/*MOBILE*/}
        <nav className="md:hidden mb-10">
        <Menu styles={styles} width={'100vw'} right isOpen={menuOpen} onStateChange={({ menuOpen }) => handleStateChange(menuOpen)}>
          <div className='h-1/2 flex flex-col justify-between w-full' >
@@ -110,7 +112,7 @@ function Navbar({ view, setView }) {
            </div>
            <div className="mobile-link" onClick={() => {  handleMobileNav("projects") }}>
              <img src={projectsvg} alt="briefcase icon" />
-             <p>Projects</p>
+             <p>Works</p>
            </div>
            <div className="mobile-link" onClick={() => { handleMobileNav("resume") }}>
              <img src={skillsvg} alt="lightbulb icon" />
@@ -120,16 +122,22 @@ function Navbar({ view, setView }) {
              <img src={contactsvg} alt="connect icon" />
              <p>Contact</p>
            </div>
-          
+           {/* Resume Download */}
+           <div>
+           <a href={resume} download="mel-resume" className=" mobile-resume btn btn-primary btn-sm active text-center" role="button">Download Resume</a>
+           </div>
          </div>
+
+
+           {/* BOTTOM ICON LINKS ON NAV */}
          <div className="w-full">
            <ul className='mobile-social flex justify-evenly items-center h-1/3'>
               {/* Gmail */}
-              <a className="transition-transform-colors hover:bg-gm-red hover:-translate-y-1 duration-500 rounded-full" href="mailto:meltee@live.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={mailsvg} alt="Mail logo." /></a>
+              <a className=" hover:-translate-y-1 duration-500 rounded-full" href="mailto:meltee@live.com" target='_blank' rel="noreferrer" name="Link to create and send an email."><img className="contactlink" src={mailsvg} alt="Mail logo." /></a>
                {/* Linked In */}
-               <a className="transition-transform-colors hover:bg-li-blue hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/melissa-taylor-aba356217/" target='_blank' rel="noreferrer" name="Link to Mel's LinkedIn"><img className="contactlink" src={linkedinsvg} alt="LinkedIn logo" /></a>
+               <a className=" hover:-translate-y-1 duration-500 rounded-full" href="https://www.linkedin.com/in/melissa-taylor-aba356217/" target='_blank' rel="noreferrer" name="Link to Mel's LinkedIn"><img className="contactlink" src={linkedinsvg} alt="LinkedIn logo" /></a>
                {/* GitHub */}
-               <a className="transition-transform-colors hover:bg-gh-grey hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/melissataylor1" target='_blank' rel="noreferrer" name="Link to Mel's GitHub Profile"><img className="contactlink" src={githubsvg} alt="GitHub logo" /></a>
+               <a className=" hover:-translate-y-1 duration-500 rounded-full" href="https://github.com/melissataylor1" target='_blank' rel="noreferrer" name="Link to Mel's GitHub Profile"><img className="contactlink" src={githubsvg} alt="GitHub logo" /></a>
            </ul>
          </div>
        </Menu>

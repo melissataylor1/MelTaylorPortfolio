@@ -31,7 +31,7 @@ function Resume(props) {
         
             <header className='sectionheading md:sectionheading-md'>
                 <img src={skills} alt="User icon on a book" className='hidden md:block md:heading-icon md:animate-slideX' />
-                <h2 className='md:animate-slideX2'>Skills</h2>
+                <h2 className='md:animate-slideX2'>Resume</h2>
             </header>
           
                    
@@ -106,7 +106,7 @@ function Resume(props) {
    {/* Additional Skills */}
    <div className='skill-container'>
                    
-                   <h2 className='ss-head  md:animate-slideX2'>Plus</h2>
+                   <h2 className='ss-head  md:animate-slideX2'>Other</h2>
                    <div className='skillsection  md:animate-slideX3'>
                        
                        <div className='skill'>
