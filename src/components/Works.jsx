@@ -31,8 +31,8 @@ const Portfolio = () => {
 
     {/* Section Heading */}
     <header className='sectionheading md:sectionheading-md'>
-        <img src={projectlogo} alt="Briefcase" className='hidden md:block md:heading-icon md:animate-slideX' />
-        <h2 className='md:animate-slideX2'>Portfolio</h2>
+        <img src={projectlogo} alt="Briefcase" className='hidden md:block md:heading-icon' />
+        <h2 className=''>Portfolio</h2>
     </header>
   
       <div className="projects-container">
