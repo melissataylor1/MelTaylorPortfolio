@@ -34,11 +34,11 @@ function Contact() {
 
       <div class="contact-form-wrapper  my-auto">
       <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
-          <div class="form-item">
+          <div class="form-item mb-10">
              <input className="text-slate-900" type="text" id="Name" name="Name" required></input>
               <label for="Name" className="text-slate-500">Name:</label>
           </div>
-          <div class="form-item">
+          <div class="form-item mb-10">
               <input className="text-slate-900" type="email" id="Email" name="Email" required></input>
               <label for="Email" className="text-slate-500">Email:</label>
           </div>
