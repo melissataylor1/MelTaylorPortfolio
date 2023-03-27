@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MelTaylorPortfolio/static/css/main.eef190b7.css",
-    "main.js": "/MelTaylorPortfolio/static/js/main.b51cc4f2.js",
+    "main.css": "/MelTaylorPortfolio/static/css/main.d2af6e7c.css",
+    "main.js": "/MelTaylorPortfolio/static/js/main.488d9854.js",
     "static/media/melissataylor_resume_2023.pdf": "/MelTaylorPortfolio/static/media/melissataylor_resume_2023.cc77309d1f5253a23bf7.pdf",
     "static/media/zodiac_quest.png": "/MelTaylorPortfolio/static/media/zodiac_quest.c02432280e90b50d21f9.png",
     "static/media/heart.png": "/MelTaylorPortfolio/static/media/heart.d975d7597d2af4ccb0e3.png",
@@ -31,11 +31,11 @@
     "static/media/heroku.svg": "/MelTaylorPortfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/linkedin.svg": "/MelTaylorPortfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
     "static/media/mail.svg": "/MelTaylorPortfolio/static/media/mail.6be2bab72258175fe17cce11a84145f4.svg",
-    "main.eef190b7.css.map": "/MelTaylorPortfolio/static/css/main.eef190b7.css.map",
-    "main.b51cc4f2.js.map": "/MelTaylorPortfolio/static/js/main.b51cc4f2.js.map"
+    "main.d2af6e7c.css.map": "/MelTaylorPortfolio/static/css/main.d2af6e7c.css.map",
+    "main.488d9854.js.map": "/MelTaylorPortfolio/static/js/main.488d9854.js.map"
   },
   "entrypoints": [
-    "static/css/main.eef190b7.css",
-    "static/js/main.b51cc4f2.js"
+    "static/css/main.d2af6e7c.css",
+    "static/js/main.488d9854.js"
   ]
 }
