@@ -20,7 +20,7 @@ function Contact() {
           <p class="contact-info text-2xl mt-10"> 647-521-8593</p>
         <div class="links my-10">
 
-          <a href="https://ca.linkedin.com/in/melissa-taylor-aba356217" target="_blank" class="links">
+          <a href="https://ca.linkedin.com/in/melissa-taylor-aba356217" target="blank" class="links">
               <img src={linkedinsvg} alt="linkedin" class="contactimg" />
           </a>
       
