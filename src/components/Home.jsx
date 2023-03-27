@@ -7,6 +7,7 @@ import Resume from "./Resume";
 import '../styles.css'
 
 
+
 function Home(props) {
     switch (props.view) {
         case "about":
