@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/MelTaylorPortfolio/static/css/main.eef190b7.css",
+    "main.js": "/MelTaylorPortfolio/static/js/main.75c46680.js",
+    "static/media/melissataylor_resume_2023.pdf": "/MelTaylorPortfolio/static/media/melissataylor_resume_2023.cc77309d1f5253a23bf7.pdf",
+    "static/media/zodiac_quest.png": "/MelTaylorPortfolio/static/media/zodiac_quest.c02432280e90b50d21f9.png",
+    "static/media/heart.png": "/MelTaylorPortfolio/static/media/heart.d975d7597d2af4ccb0e3.png",
+    "static/media/travel-me.png": "/MelTaylorPortfolio/static/media/travel-me.2e495df50dccd539ebe5.png",
+    "static/media/express.svg": "/MelTaylorPortfolio/static/media/express.8d84c36aff744c2f744df87312cb6f0c.svg",
+    "static/media/jquery.svg": "/MelTaylorPortfolio/static/media/jquery.fcc480227fd31fecc887db807010bf1d.svg",
+    "static/media/jest.svg": "/MelTaylorPortfolio/static/media/jest.a4aba16f8795b654c9cd0ebeee115dac.svg",
+    "static/media/mysql.svg": "/MelTaylorPortfolio/static/media/mysql.0697e026464104aea8919845703174b9.svg",
+    "static/media/react.svg": "/MelTaylorPortfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/nodejs.svg": "/MelTaylorPortfolio/static/media/nodejs.615ffbea9529ca7047ed8a912bfd94b2.svg",
+    "static/media/photoshop.svg": "/MelTaylorPortfolio/static/media/photoshop.20d9ef589107ec250f77a9cc59d8d1b2.svg",
+    "index.html": "/MelTaylorPortfolio/index.html",
+    "static/media/graphql.svg": "/MelTaylorPortfolio/static/media/graphql.488e5ca26ffde22d9a3d8925fce09070.svg",
+    "static/media/mongodb.svg": "/MelTaylorPortfolio/static/media/mongodb.1aca075d5cce0819fea7ea0902d94ce4.svg",
+    "static/media/contact.svg": "/MelTaylorPortfolio/static/media/contact.1089ca4d5fa743044fc9f92a80c29525.svg",
+    "static/media/bootstrap.svg": "/MelTaylorPortfolio/static/media/bootstrap.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/javascript.svg": "/MelTaylorPortfolio/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/about.svg": "/MelTaylorPortfolio/static/media/about.3631f9c1b3ddb38b167e755637aee6c0.svg",
+    "static/media/git-bash.svg": "/MelTaylorPortfolio/static/media/git-bash.b3f73afb1361d47dd238f8e5e884ff06.svg",
+    "static/media/skills.svg": "/MelTaylorPortfolio/static/media/skills.4e2b51936e53d28768b4a0cfce0d3c07.svg",
+    "static/media/projects.svg": "/MelTaylorPortfolio/static/media/projects.c430a9042e2eeb68f418911035f32364.svg",
+    "static/media/tailwind.svg": "/MelTaylorPortfolio/static/media/tailwind.315d0ac2a2708d5f06972906113dfbf1.svg",
+    "static/media/figma.svg": "/MelTaylorPortfolio/static/media/figma.72ff35026c53ba574aef54c980db0e8d.svg",
+    "static/media/github.svg": "/MelTaylorPortfolio/static/media/github.678001e7b52306104fc34f63060f144b.svg",
+    "static/media/css.svg": "/MelTaylorPortfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/MelTaylorPortfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "static/media/heroku.svg": "/MelTaylorPortfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
+    "static/media/linkedin.svg": "/MelTaylorPortfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
+    "static/media/mail.svg": "/MelTaylorPortfolio/static/media/mail.6be2bab72258175fe17cce11a84145f4.svg",
+    "main.eef190b7.css.map": "/MelTaylorPortfolio/static/css/main.eef190b7.css.map",
+    "main.75c46680.js.map": "/MelTaylorPortfolio/static/js/main.75c46680.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eef190b7.css",
+    "static/js/main.75c46680.js"
+  ]
+}
