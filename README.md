@@ -53,3 +53,6 @@ https://negomi.github.io/react-burger-menu/
 Sidebar with collabsable elements
 https://bbbootstrap.com/snippets/bootstrap-collapsible-sidebar-navbar-74494348
 https://blog.logrocket.com/how-create-multilevel-dropdown-menu-react/
+
+Props Tutorial
+https://www.digitalocean.com/community/tutorials/how-to-customize-react-components-with-props

@@ -18,13 +18,13 @@ function Header(props) {
             {/* Namep*/}
             <section className="flex justify-evenly items-center md:mb-10 md:w-full">
             
-                <img className="rounded-full w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />
+                <img className=" w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />
                 <h1 className='text-center text-xl text-slate-50 font-display font-semibold tracking-wide ml-4'>Mel Taylor</h1>
             </section>
             {/* Navbar */}
             <Navbar view={props.view} setView={props.setView}/>
             {/* Resume Download */}
-            <a className="bg-highlight border border-slate-50 text-slate-50 p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500 hover:resume-hover hover:text-black hover:border-hidden md:block" href={resume} download="mel-resume">Download Resume</a>
+            <a className="border border-slate-50 text-slate-50 p-3 font-bold text-sm rounded w-2/3 mx-auto my-0 text-center mt-20 hidden transition-all duration-500  md:block hover:resumehover" href={resume} download="mel-resume">Download Resume</a>
       
             {/* Contact Links */}
             <ul className='footer-links hidden w-full md:flex justify-evenly items-center'>
