@@ -189,11 +189,11 @@ a {
 
 #about-name {
     background: -webkit-linear-gradient(62deg, #F77d8b 0%, #6648fc 100%);
-    padding: 10px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
     font-family: 'Fugaz One', cursive;
   font-weight: 500;
+  height:auto;
 }
 #about-section {
     display: flex;
@@ -201,13 +201,7 @@ a {
   justify-content: space-between;
   align-items: center;
 }
-hr {
-    border: solid #E3E3E3;
-    border-width: 1px 0 0;
-    clear: both;
-    margin: 11px 0 30px;
-    height: 0;
-}
+
     /*================================ ABOUT ================================*/
 
 
@@ -533,11 +527,14 @@ hr {
     }
 
     .sectionheading {
-        background-color: var(--alt-bg);
+        margin-top: 0;
+        padding: 12px;
         width: 100%;
-        font-size: xx-large;
-        text-align: center;
-        padding: 5px;
+        border-bottom: 1px solid var(--border-color);
+        font-size: medium;
+        text-align: left;
+        display: flex;
+        align-items: center;
         font-family: var(--heading-font);
     }
 

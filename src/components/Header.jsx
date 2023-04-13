@@ -19,7 +19,7 @@ function Header(props) {
             <section className="flex justify-evenly items-center md:mb-10 md:w-full">
             
                 <img className=" w-1/6 hidden md:block" src={headshot} alt="Melissa Taylor" />
-                <h1 className='text-center text-xl text-slate-50 font-display font-semibold tracking-wide ml-4'>Mel Taylor</h1>
+                <h1 className=' text-center text-xl text-slate-50 font-display font-semibold tracking-wide ml-4'>Mel Taylor</h1>
             </section>
             {/* Navbar */}
             <Navbar view={props.view} setView={props.setView}/>
