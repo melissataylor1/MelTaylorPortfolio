@@ -28,12 +28,21 @@ function Projects() {
           <Project />
         </div>
         <hr className=""></hr>
-        <div className="mb-10">
-          <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-indigo-600 decoration-4 lg:pt-10 lg:pl-10 lg:pb-10  lg:text-left pt-10 pb-4 ">
-            Graphic Design & Digital Art
-          </p>
-          {/* Populates all of the projects in the projects array as cards.*/}
-          <Graphic />
+        <div className="grid grid-cols-2">
+          <div className="mb-10">
+            <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-indigo-600 decoration-4 lg:pt-10 lg:pl-10 lg:pb-10  lg:text-left pt-10 pb-4 col-span-1">
+              Graphic Design & Digital Art
+            </p>
+            {/* Populates all of the projects in the projects array as cards.*/}
+            <Graphic />
+          </div>
+          <div className="mb-10">
+            <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-indigo-600 decoration-4 lg:pt-10 lg:pl-10 lg:pb-10  lg:text-left pt-10 pb-4 col-span-1">
+              UX/UI Design
+            </p>
+            {/* Populates all of the projects in the projects array as cards.*/}
+            <UX />
+          </div>
         </div>
       </div>
     </div>
