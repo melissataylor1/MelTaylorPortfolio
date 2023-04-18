@@ -1,9 +1,11 @@
 /* Root Variables */
+
+
 :root {
     /* Colors */
     /* Background */
     --main-bg: #111;
-    --alt-bg: #2627273a;
+    --alt-bg: rgb(25, 25, 25);
     /* Text */
     --main-text: #eee;
     --alt-text: #bbb;
@@ -183,7 +185,14 @@ a {
         margin-top: 100px;
     }
 
-
+    #proj-name {
+        background: -webkit-linear-gradient(62deg, #7dccf7 0%, #9df4c8 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+        font-family: 'Fugaz One', cursive;
+      font-weight: 500;
+      height:auto;
+    }
 
     /*================================ PAGES ================================*/
 
@@ -204,7 +213,57 @@ a {
 
     /*================================ ABOUT ================================*/
 
-
+    .carousel {
+        position: relative;
+        width: 600px; /* Set the width of the carousel */
+        height: 600px;
+        margin: 0 auto;
+      }
+      
+      .carousel-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain; /* Use "contain" to prevent stretching */
+      }
+      
+      .caption {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        bottom: -45px;
+      }
+      
+      .prev-button,
+      .next-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 22px;
+        padding: 10px;
+        background-color: rgb(62, 52, 52);
+        border: none;
+        cursor: pointer;
+        border-radius: 1px;
+        font-family: 'Poppins', sans-serif;
+      }
+      
+      .prev-button {
+        left: -70px; /* Move the button slightly outside of the container */
+      }
+      
+      .next-button {
+        right: -70px; /* Move the button slightly outside of the container */
+      }
     /*================================ PROJECTS ================================*/
 
     /* The container that populates projects */
@@ -234,7 +293,6 @@ a {
         border-radius: 20px;
         /* Flex Settings */
         display: flex;
-        justify-content: space-evenly;
         flex-wrap: wrap;
         align-items: center;
     }
@@ -255,10 +313,22 @@ a {
     }
 
     .project-card-md {
-        width: 46%;
+        width: 45%;
         /* Flex Settings */
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;
+        /* Deco */
+        text-align: center;
+        box-shadow: 7px 7px 12px black;
+        background-color: var(--alt-bg);
+        border-radius: .5rem;
+    }
+    .project-card-2xl {
+        width: 40%;
+        /* Flex Settings */
+        display: flex;
+        justify-content: space-evenly;
         align-items: center;
         /* Deco */
         text-align: center;
@@ -269,7 +339,7 @@ a {
 
     .project-card-hover {
         transform: translateY(-1%);
-        box-shadow: 0px 0px 20px #666;
+        box-shadow: 0px 0px 10px #666;
     }
 
     .project-desc-md {
@@ -285,6 +355,7 @@ a {
         padding: 20px;
         text-align: left;
         height: 12vh;
+        overflow: auto;
     }
 
     .title-bar {
@@ -299,7 +370,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         overflow-x: hidden;
     }
 
@@ -327,7 +398,6 @@ a {
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-        justify-content: space-evenly;
         /* Deco */
         border-radius: .5rem;
     }
@@ -337,7 +407,6 @@ a {
         margin: 2rem;
         overflow-x: hidden;
         /* Deco */
-        font-size: xx-large;
         font-family: var(--heading-font);
     }
 
@@ -354,10 +423,27 @@ a {
     }
 
     .skill-icon {
-        width: 40px;
+        width: 50px;
     }
 
+    
     /*================================ CONTACT ================================*/
+
+    .resume-title {
+        font-family: var(--heading-font);
+        }
+        .resume-position {
+            font-family: 'Bitter', serif;
+            }
+            .resume-years {
+                font-family: var(--main-font);
+                }
+                .chapter{
+                    font-family: 'Poppins', sans-serif;
+                    }
+    /*================================ CONTACT ================================*/
+
+
     #contact {
         background-color: var(--main-white);
         display: flex;
@@ -516,6 +602,7 @@ a {
     /* =============================== SITEWIDE =============================== */
 
     .sectionheading-md {
+        background-color: var(--alt-bg);
         margin-top: 0;
         padding: 1rem;
         width: 100%;
@@ -523,10 +610,23 @@ a {
         font-size: x-large;
         text-align: left;
         display: flex;
+        z-index: 10;
         font-family: var(--heading-font);
     }
 
     .sectionheading {
+        margin-top: 0;
+        padding: 12px;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        font-size: medium;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        font-family: var(--heading-font);
+    }
+    .sectionheading2 {
+        background-color: var(--alt-bg);
         margin-top: 0;
         padding: 12px;
         width: 100%;
@@ -552,12 +652,12 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: #444;
+    background: rgb(230, 230, 230);
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #FFF;
+    background: rgb(135, 135, 135);
     border-radius: 10px;
 }
 

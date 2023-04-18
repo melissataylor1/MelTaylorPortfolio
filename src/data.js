@@ -72,48 +72,5 @@ export default [
         },
       ],
     },
-
-    skills: {
-      frontend: [
-        {
-          badge: "HTML",
-        },
-      ],
-      backend: [
-        {
-          badge: "HTML",
-        },
-      ],
-      other: [
-        {
-          badge: "HTML",
-        },
-      ],
-    },
-
-    portfolio: {
-      webdevelopment: [
-        {
-          title: "Zodiac Quest",
-          image: "../src/assets/images/zodiac-quest.png",
-          desc: "A social network with engagement incentives built around a simple browser platformer game .",
-          appLink: "https://zodiacquestfinal.herokuapp.com",
-          repoLink: "https://github.com/jacobpostill/project-2",
-        },
-        {
-          title: "Travel Me",
-          img: "../src/assets/images/travel-me.png",
-          desc: "A travel app where users can compare currency exchanges between countries while learning about the countries history and seeing images.",
-          link: "https://johnxlai.github.io/travel-app/",
-          repolink: "https://github.com/jjocelynn/WikiGo",
-        },
-      ],
-      graphicdesign: [
-        {
-          image: "../src/assets/images/test",
-          desc: "A travel app where users can compare currency exchanges between countries while learning about the countries history and seeing images.",
-        },
-      ],
-    },
   },
 ];

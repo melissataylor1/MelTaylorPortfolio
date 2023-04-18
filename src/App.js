@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import "./styles.css";
-
 function App() {
   const [view, setView] = useState("about");
 
