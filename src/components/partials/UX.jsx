@@ -28,72 +28,69 @@ const UX = () => {
   const images = [
     {
       src: graph1,
-      caption: "DoorDash concept art. Illustrator. 2021. ",
+      caption: "Portfolio Managment Dashboard",
     },
     {
       src: graph2,
-      caption: "DoorDash concept art. Photoshop, Dimension. 2021",
+      caption: "Portfolio Managment Dashboard",
     },
     {
       src: graph3,
-      caption: "DoorDash concept art. Photoshop, Dimension. 2021",
+      caption: "Portfolio Managment Dashboard",
     },
     {
       src: kyc1,
-      caption: "Logo prototype. Illustrator. 2020.",
+      caption: "Know Your Client Quiz Interface",
     },
 
     {
       src: kyc2,
-      caption: "Long Johnny fan art. Illustrator, Photoshop. 2020.",
+      caption: "Know Your Client Quiz Interface",
     },
     {
       src: kyc3,
-      caption: "Lou Reed fan art. Photoshop, Illustrator. 2021.",
+      caption: "Know Your Client Quiz Interface",
     },
     {
       src: kyc5,
-      caption: "Concept Album art. Photoshop. 2020.",
+      caption: "Know Your Client Quiz Interface",
     },
 
     {
       src: kyc6,
-      caption:
-        "Georgetown, ON snapchat geo filter (picked up by Snapchat inc.). Illustrator. 2017.",
+      caption: "Know Your Client Quiz Interface",
     },
 
     {
       src: kyc7,
-      caption:
-        "Podcast background for SpiritLive Radio. Illustrator, Photoshop. 2021.",
+      caption: "Know Your Client Quiz Interface",
     },
 
     {
       src: kyc8,
-      caption:
-        "Podcast overlay for SpiritLive Radio. Illustrator, Photoshop. 2021",
+      caption: "Portfolio Managment Dashboard",
     },
 
     {
       src: kyc9,
-      caption: "Beer can label prototype. Photoshop, Dimension. 2021.",
+      caption: "Portfolio Managment Dashboard",
     },
     {
       src: portal1,
-      caption: "Zoom background, signage mockup. Photoshop. 2022. ",
+      caption: "Company Internal Employee Website ",
     },
     {
       src: portal2,
-      caption: "Self Portrait. Illustrator, Photoshop. 2020.",
+      caption: "Company Internal Employee Website ",
     },
 
     {
       src: portal3,
-      caption: "Body Study 1. Illustrator, Photoshop. 2020.",
+      caption: "Company Internal Employee Website ",
     },
     {
       src: portal4,
-      caption: "Body Study 2. Illustrator, Photoshop. 2020.",
+      caption: "Company Internal Employee Website ",
     },
   ];
 
