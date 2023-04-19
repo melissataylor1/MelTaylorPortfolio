@@ -145,17 +145,11 @@ const Graphic = () => {
       <div className="caption font-extralight">
         {images[currentImage].caption}
       </div>
-      <button
-        className="prev-button bg-zinc-800 font-light"
-        onClick={handlePrev}
-      >
-        Prev
+      <button className="prev-button " onClick={handlePrev}>
+        <i class="fa-solid fa-circle-chevron-left text-2xl md:text-4xl"></i>
       </button>
-      <button
-        className="next-button bg-zinc-800 font-light"
-        onClick={handleNext}
-      >
-        Next
+      <button className="next-button " onClick={handleNext}>
+        <i class="fa-solid fa-circle-chevron-right text-2xl md:text-4xl"></i>
       </button>
     </div>
   );

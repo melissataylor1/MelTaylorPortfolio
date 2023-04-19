@@ -103,26 +103,20 @@ const UX = () => {
   };
 
   return (
-    <div className="carousel-ux ">
+    <div className="carousel lg:carousel-ux">
       <img
         src={images[currentImage].src}
         alt={images[currentImage].caption}
-        className="carousel-image-ux  mx-auto rounded-md"
+        className="carousel-image lg:carousel-image-ux mx-auto rounded-md"
       />
       <div className="caption font-extralight">
         {images[currentImage].caption}
       </div>
-      <button
-        className="prev-button bg-zinc-800 font-light"
-        onClick={handlePrev}
-      >
-        Prev
+      <button className="prev-button" onClick={handlePrev}>
+        <i class="fa-solid fa-circle-chevron-left text-2xl md:text-4xl "></i>
       </button>
-      <button
-        className="next-button bg-zinc-800 font-light"
-        onClick={handleNext}
-      >
-        Next
+      <button className="next-button " onClick={handleNext}>
+        <i class="fa-solid fa-circle-chevron-right text-2xl md:text-4xl"></i>
       </button>
     </div>
   );
