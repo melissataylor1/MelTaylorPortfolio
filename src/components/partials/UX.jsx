@@ -103,11 +103,11 @@ const UX = () => {
   };
 
   return (
-    <div className="carousel lg:carousel-ux">
+    <div className="carousel 2xl:carousel-ux">
       <img
         src={images[currentImage].src}
         alt={images[currentImage].caption}
-        className="carousel-image lg:carousel-image-ux mx-auto rounded-md"
+        className="carousel-image 2xl:carousel-image-ux mx-auto rounded-md"
       />
       <div className="caption font-extralight">
         {images[currentImage].caption}

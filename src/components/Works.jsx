@@ -22,7 +22,7 @@ function Projects() {
       <div className="overflow-y-auto overflow-x-hidden pt-5 xl:pt-8  self-center ">
         <div className="mb-20 ">
           <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-sky-300 decoration-4  lg:pl-10  lg:pb-10  lg:text-left pt-5 pb-8 ">
-            Fullstack Web Development
+            Fullstack Web Development & Web Design
           </p>
           {/* Populates all of the projects in the projects array as cards.*/}
           <Project />
@@ -38,7 +38,7 @@ function Projects() {
           </div>
           <div className="mb-20">
             <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-sky-300 decoration-4 xl:pt-10 lg:pl-10 xl:pb-10  xl:text-left pt-10 pb-4 xl:col-span-1">
-              UX/UI Design
+              Other UX/UI Design Examples
             </p>
             {/* Populates all of the projects in the projects array as cards.*/}
             <UX />

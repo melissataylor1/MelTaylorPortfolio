@@ -280,7 +280,51 @@ a {
       .next-button {
         right: -70px; /* Move the button slightly outside of the container */
       }
+      .prev-button2 {
+        left: -70px; /* Move the button slightly outside of the container */
+      }
+      .next-button2 {
+        right: -70px; /* Move the button slightly outside of the container */
+      }
+      @media only screen and (min-width: 1020px) and (max-width:1800px) {
+        .carousel {
+          width: 100%;
+        }
+        .image-container {
+          height: 100%;
+          max-width: 400px;
+        }
+        .carousel-image {
+          height: 100%;
+          max-width: 400px;
+          object-fit: contain;
+        }
+        .caption {
+          font-size: 14px;
+        }
      
+        .prev-button {
+          left: 0px; /* Move the button slightly outside of the container */
+          
+        }
+        .next-button {
+          right: 0px; /* Move the button slightly outside of the container */
+        }
+        .prev-button2 {
+          left: -0px; /* Move the button slightly outside of the container */
+          
+        }
+        .next-button2 {
+          right: -0px; /* Move the button slightly outside of the container */
+        }
+        .prev-button3 {
+          left: -70px; /* Move the button slightly outside of the container */
+          
+        }
+        .next-button3 {
+          right: -70px; /* Move the button slightly outside of the container */
+        }
+      }
       @media only screen and (min-width: 481px) and (max-width:768px) {
         .carousel {
           width: 100%;

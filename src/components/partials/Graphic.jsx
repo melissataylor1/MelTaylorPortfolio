@@ -5,8 +5,12 @@ import Stack from "./Stack";
 
 import left from "../../assets/icons/circle-left-solid.svg";
 import right from "../../assets/icons/circle-right-solid.svg";
-
-import album1 from "../../assets/images/graphics/album1.png";
+import cisc1 from "../../assets/images/graphics/cisc_1.png";
+import cisc2 from "../../assets/images/graphics/cisc2_Page_1.png";
+import cisc3 from "../../assets/images/graphics/cisc2_Page_2.png";
+import cisc4 from "../../assets/images/graphics/cisc3.png";
+import cisc6 from "../../assets/images/graphics/cisc4.png";
+import cisc5 from "../../assets/images/graphics/cisc5.png";
 import album2 from "../../assets/images/graphics/album2.jpg";
 import album3 from "../../assets/images/graphics/album3.jpg";
 import body1 from "../../assets/images/graphics/body1.png";
@@ -17,16 +21,13 @@ import doordash1 from "../../assets/images/graphics/doordash1.jpeg";
 import doordash2 from "../../assets/images/graphics/doordash2.jpeg";
 import doordash3 from "../../assets/images/graphics/doordash3.jpeg";
 import fanart from "../../assets/images/graphics/fanart.png";
-import fathersday from "../../assets/images/graphics/fathersday.png";
 import logo1 from "../../assets/images/graphics/logo4.png";
 import logo2 from "../../assets/images/graphics/logo1.png";
 import logo from "../../assets/images/graphics/logo.png";
 import logo3 from "../../assets/images/graphics/logo2.png";
-import logo4 from "../../assets/images/graphics/logo3.png";
 import geofilter from "../../assets/images/graphics/geofilter.png";
 import mockup3 from "../../assets/images/graphics/mockup3.jpg";
 import officemockup from "../../assets/images/graphics/officemockup.png";
-import poster from "../../assets/images/graphics/poster.png";
 import selfportrait from "../../assets/images/graphics/selfportrait.png";
 import zoombg1 from "../../assets/images/graphics/zoombg1.png";
 import zoombg2 from "../../assets/images/graphics/zoombg2.png";
@@ -34,6 +35,38 @@ import zoombg2 from "../../assets/images/graphics/zoombg2.png";
 const Graphic = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
+    {
+      src: cisc1,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Photoshop 2022. ",
+    },
+    {
+      src: cisc2,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Photoshop 2022.",
+    },
+    {
+      src: cisc3,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Photoshop 2022.",
+    },
+
+    {
+      src: cisc4,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Illustrator. Photoshop 2022.",
+    },
+    {
+      src: cisc5,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Illustrator. Photoshop 2022.",
+    },
+    {
+      src: cisc6,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Illustrator. Photoshop 2022.",
+    },
+
     {
       src: doordash1,
       caption: "DoorDash concept art. Illustrator. 2021. ",
@@ -145,10 +178,16 @@ const Graphic = () => {
       <div className="caption font-extralight">
         {images[currentImage].caption}
       </div>
-      <button className="prev-button " onClick={handlePrev}>
+      <button
+        className="prev-button lg:prev-button2 xl:prev-button3"
+        onClick={handlePrev}
+      >
         <i class="fa-solid fa-circle-chevron-left text-2xl md:text-4xl"></i>
       </button>
-      <button className="next-button " onClick={handleNext}>
+      <button
+        className="next-button lg:next-button2 xl:next-button3"
+        onClick={handleNext}
+      >
         <i class="fa-solid fa-circle-chevron-right text-2xl md:text-4xl"></i>
       </button>
     </div>
