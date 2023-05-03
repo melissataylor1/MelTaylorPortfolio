@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MelTaylorPortfolio/static/css/main.cbccbd79.css",
-    "main.js": "/MelTaylorPortfolio/static/js/main.e736a2d1.js",
+    "main.css": "/MelTaylorPortfolio/static/css/main.0256c75c.css",
+    "main.js": "/MelTaylorPortfolio/static/js/main.5fefafea.js",
     "static/media/body5.png": "/MelTaylorPortfolio/static/media/body5.852808206412be2fbbfd.png",
     "static/media/body1.png": "/MelTaylorPortfolio/static/media/body1.4eedbe8b00436e3ee896.png",
     "static/media/body2.png": "/MelTaylorPortfolio/static/media/body2.a9b56ca48de098fd2ed0.png",
@@ -13,7 +13,6 @@
     "static/media/logo4.png": "/MelTaylorPortfolio/static/media/logo4.a86282eb8a5b470fb29e.png",
     "static/media/logo.png": "/MelTaylorPortfolio/static/media/logo.b489c996aaafab08614f.png",
     "static/media/cisc2_Page_2.png": "/MelTaylorPortfolio/static/media/cisc2_Page_2.930d61198b4e21f1193a.png",
-    "static/media/melissataylor_resume_2023.pdf": "/MelTaylorPortfolio/static/media/melissataylor_resume_2023.cc77309d1f5253a23bf7.pdf",
     "static/media/cisc_1.png": "/MelTaylorPortfolio/static/media/cisc_1.860ecfa05dd0675a83c1.png",
     "static/media/officemockup.png": "/MelTaylorPortfolio/static/media/officemockup.b2160765b52bddd60d9a.png",
     "static/media/cisc2_Page_1.png": "/MelTaylorPortfolio/static/media/cisc2_Page_1.d5246651f1e366d1a1dc.png",
@@ -51,6 +50,7 @@
     "static/media/graph2.jpeg": "/MelTaylorPortfolio/static/media/graph2.7822b40eb58e4da4f499.jpeg",
     "static/media/doordash1.jpeg": "/MelTaylorPortfolio/static/media/doordash1.5ad2d7674d01002bd027.jpeg",
     "static/media/fa-brands-400.woff2": "/MelTaylorPortfolio/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/melissataylor_resume_2023.pdf": "/MelTaylorPortfolio/static/media/melissataylor_resume_2023.62c6c514dc548f7c4744.pdf",
     "static/media/doordash2.jpeg": "/MelTaylorPortfolio/static/media/doordash2.fbb1c76260fd90a64e9e.jpeg",
     "static/media/doordash3.jpeg": "/MelTaylorPortfolio/static/media/doordash3.78a9ab6a7510f69eb8c4.jpeg",
     "static/media/logo1.png": "/MelTaylorPortfolio/static/media/logo1.1e0b8ff5c96446347fbb.png",
@@ -93,11 +93,11 @@
     "static/media/heroku.svg": "/MelTaylorPortfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/linkedin.svg": "/MelTaylorPortfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
     "static/media/mail.svg": "/MelTaylorPortfolio/static/media/mail.6be2bab72258175fe17cce11a84145f4.svg",
-    "main.cbccbd79.css.map": "/MelTaylorPortfolio/static/css/main.cbccbd79.css.map",
-    "main.e736a2d1.js.map": "/MelTaylorPortfolio/static/js/main.e736a2d1.js.map"
+    "main.0256c75c.css.map": "/MelTaylorPortfolio/static/css/main.0256c75c.css.map",
+    "main.5fefafea.js.map": "/MelTaylorPortfolio/static/js/main.5fefafea.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbccbd79.css",
-    "static/js/main.e736a2d1.js"
+    "static/css/main.0256c75c.css",
+    "static/js/main.5fefafea.js"
   ]
 }
