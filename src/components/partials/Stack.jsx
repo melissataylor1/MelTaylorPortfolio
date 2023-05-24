@@ -8,11 +8,16 @@ import css from "../../assets/icons/css.svg";
 import html from "../../assets/icons/html.svg";
 import react from "../../assets/icons/react.svg";
 import tailwind from "../../assets/icons/tailwind.svg";
+import hubspot from "../../assets/icons/hubspot.svg";
+import graphql from "../../assets/icons/graphql.svg";
+import bootstrap from "../../assets/icons/bootstrap.svg";
+import node from "../../assets/icons/nodejs.svg";
 import mongo from "../../assets/icons/mongodb.svg";
 import photoshop from "../../assets/icons/photoshop.svg";
 import illustrator from "../../assets/icons/illustrator.svg";
 import aftereffects from "../../assets/icons/ae.svg";
 import dimension from "../../assets/icons/dimension.svg";
+import handlebars from "../../assets/icons/handlebars.svg";
 // Back End
 import mysql from "../../assets/icons/mysql.svg";
 import express from "../../assets/icons/express-white.svg";
@@ -50,6 +55,14 @@ function Stack({ stack }) {
               stackIcon = express;
               stackAlt = "Express.js";
               break;
+            case "Handlebars":
+              stackIcon = handlebars;
+              stackAlt = "Handlebars";
+              break;
+            case "Bootstrap":
+              stackIcon = bootstrap;
+              stackAlt = "Bootstrap";
+              break;
             case "Mongo":
               stackIcon = mongo;
               stackAlt = "Mongodb";
@@ -58,11 +71,22 @@ function Stack({ stack }) {
               stackIcon = mysql;
               stackAlt = "MySQL";
               break;
+            case "GraphQL":
+              stackIcon = graphql;
+              stackAlt = "GraphQL";
+              break;
+            case "Node":
+              stackIcon = node;
+              stackAlt = "Node";
+              break;
             case "HTML":
               stackIcon = html;
               stackAlt = "HTML";
               break;
-
+            case "Hubspot":
+              stackIcon = hubspot;
+              stackAlt = "Hubspot";
+              break;
             case "Photoshop":
               stackIcon = photoshop;
               stackAlt = "Photoshop";

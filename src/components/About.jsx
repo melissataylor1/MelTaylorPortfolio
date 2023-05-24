@@ -1,6 +1,7 @@
 import React from "react";
 import headshot from "../assets/images/heart.png";
 import aboutme from "../assets/icons/about.svg";
+import react from "../assets/icons/react.svg";
 import "../styles.css";
 /*PROPS FOR THIS PAGE
 function About() {
@@ -19,7 +20,7 @@ function About(props) {
         <h2 className="about-title ">About Me</h2>
       </header>
 
-      <div className="overflow-y-auto overflow-x-hidden pt-10 md:pt-14 xl:pt-20 self-center ">
+      <div className="overflow-y-auto  pt-10 md:pt-14 xl:pt-20 self-center">
         <div className="md:grid md:grid-cols-6 lg:grid-cols-8 2xl:grid-cols-10 md:gap-5 w-11/12  lg:px-0 md:mb-10 lg:w-3/4 xl:w-3/5 mx-auto md:items-center">
           <div className="w-2/5 md:w-full md:justify-item-start pb-5 md:pb-0 md:col-span-2 md:self-center mx-auto">
             <img className="" src={headshot} alt="MEl Taylor" />
@@ -64,8 +65,17 @@ function About(props) {
             <br />
             <br />
           </div>
-          <p className="text-center italic text-sm mt-8 sm:mt-16 lg:mt-24">
-            Last Updated: 4/13/2023
+          <p className="text-center italic text-sm lg:text-md mt-8 sm:mt-16 lg:mt-24 pb-10">
+            Last Updated: 05/03/2023
+          </p>
+          <p className="bg-neutral-900 border-y border-neutral-500 py-5 text-center text-sm self-end">
+            Made with ❤️ and React{" "}
+            <img
+              className="w-4 inline self-center"
+              src={react}
+              alt="User icon on a book"
+            />{" "}
+            <p className="italic inline">by Mel Taylor</p>
           </p>
         </div>
       </div>

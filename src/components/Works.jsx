@@ -1,5 +1,6 @@
 import React from "react";
 import Project from "./partials/Project";
+import react from "../assets/icons/react.svg";
 import Graphic from "./partials/Graphic";
 import UX from "./partials/UX";
 
@@ -43,6 +44,17 @@ function Projects() {
             {/* Populates all of the projects in the projects array as cards.*/}
             <UX />
           </div>
+        </div>
+        <div className="bg-neutral-900 border-y border-neutral-500 py-5 ">
+          <p className=" text-center text-sm ">
+            Made with ❤️ and React{" "}
+            <img
+              className="w-4 inline self-center"
+              src={react}
+              alt="User icon on a book"
+            />{" "}
+            <p className="italic inline">by Mel Taylor</p>
+          </p>
         </div>
       </div>
     </div>

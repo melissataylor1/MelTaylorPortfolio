@@ -16,6 +16,8 @@ import ae from "../assets/icons/ae.svg";
 import cad from "../assets/icons/cad-icon.svg";
 import dimension from "../assets/icons/dimension.svg";
 import blender from "../assets/icons/blender.svg";
+import hubspot from "../assets/icons/hubspot.svg";
+import handlebars from "../assets/icons/handlebars.svg";
 
 // Back End
 import nodejs from "../assets/icons/nodejs.svg";
@@ -92,6 +94,14 @@ function Resume(props) {
                 <img className="skill-icon" src={jquery} alt="jQuery Logo" />
                 <p className="skill-name">jQuery</p>
               </div>
+              <div className="skill">
+                <img
+                  className="skill-icon"
+                  src={handlebars}
+                  alt="handlebars Logo"
+                />
+                <p className="skill-name">Handlebars.js</p>
+              </div>
             </div>
           </div>
 
@@ -151,6 +161,10 @@ function Resume(props) {
                 <p className="skill-name">Figma</p>
               </div>
               <div className="skill">
+                <img className="skill-icon" src={hubspot} alt="hubspot" />
+                <p className="skill-name">Hubspot</p>
+              </div>
+              <div className="skill">
                 <img
                   className="skill-icon"
                   src={photoshop}
@@ -192,6 +206,17 @@ function Resume(props) {
               </div>
             </div>
           </div>
+        </div>
+        <div className="bg-neutral-900 border-y border-neutral-500 py-5 text-white">
+          <p className=" text-center text-sm ">
+            Made with ❤️ and React{" "}
+            <img
+              className="w-4 inline self-center"
+              src={react}
+              alt="User icon on a book"
+            />{" "}
+            <p className="italic inline">by Mel Taylor</p>
+          </p>
         </div>
       </div>
     </div>

@@ -174,7 +174,7 @@ function Navbar({ view, setView }) {
                 className=" mobile-resume btn btn-primary btn-sm active text-center"
                 role="button"
               >
-                Download Resume
+                <p className="text-center mx-auto"> Download Resume</p>
               </a>
             </div>
           </div>

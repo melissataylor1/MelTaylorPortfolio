@@ -175,8 +175,8 @@ a {
         font-family: var(--heading-font);
         cursor: pointer;
         transition: all .2s ease-in-out;
-        background-color: var(--highlight);
-        color: rgb(0, 0, 0);
+        background: -webkit-linear-gradient(62deg, #F77d8b 0%, #6648fc 100%);
+        color:white;
         border-radius: 2rem;
     }
 
@@ -609,15 +609,12 @@ a {
         align-items: center;
         }
         
-      .contact-links h2 {
+      .contact-links-h2 {
         font-family:'Fugaz One', cursive;
-        background: -webkit-linear-gradient(62deg, #F77d8b 0%, #6648fc 100%);
+        background: -webkit-linear-gradient(62deg, #f98b98 0%, #6648fc 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: clamp(30px, 6vw, 60px);
-        letter-spacing: 2px;
-        text-align: center;
-        transform: scale(.95, 1);
+       
         }
         
       .links {
