@@ -29,6 +29,13 @@ const work = [
       "Clients include: small businesses, financial service companies, radio stations, media companies, musicians, and startups",
   },
   {
+    company: "Canadian Institute of Steel Construction",
+    title: "Web & Digital Media Coordinator",
+    years: "October 2022 - January 2023",
+    description:
+      "I created a comprehensive web and digital media strategy for a government grant program, managing website content, multimedia ads, and vendor relationships.  Working closely with stakeholders, I ensured that all media materials aligned with the branding and messaging guidelines of both the CISC and the government, and analyzed data for improvement.",
+  },
+  {
     company: "Optimize Wealth Management",
     title: "Senior Marketing Specialist",
     years: "October 2021 - July 2022",

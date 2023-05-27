@@ -18,6 +18,7 @@ import dimension from "../assets/icons/dimension.svg";
 import blender from "../assets/icons/blender.svg";
 import hubspot from "../assets/icons/hubspot.svg";
 import handlebars from "../assets/icons/handlebars.svg";
+import next from "../assets/icons/next.svg";
 
 // Back End
 import nodejs from "../assets/icons/nodejs.svg";
