@@ -75,6 +75,10 @@ function Resume(props) {
                 <p className="skill-name">React</p>
               </div>
               <div className="skill">
+                <img className="skill-icon" src={next} alt="Next Logo" />
+                <p className="skill-name">Next.js</p>
+              </div>
+              <div className="skill">
                 <img
                   className="skill-icon"
                   src={tailwind}

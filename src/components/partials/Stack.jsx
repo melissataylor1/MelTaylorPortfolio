@@ -17,6 +17,7 @@ import photoshop from "../../assets/icons/photoshop.svg";
 import illustrator from "../../assets/icons/illustrator.svg";
 import aftereffects from "../../assets/icons/ae.svg";
 import dimension from "../../assets/icons/dimension.svg";
+import next from "../../assets/icons/next.svg";
 import handlebars from "../../assets/icons/handlebars.svg";
 // Back End
 import mysql from "../../assets/icons/mysql.svg";
@@ -82,6 +83,10 @@ function Stack({ stack }) {
             case "HTML":
               stackIcon = html;
               stackAlt = "HTML";
+              break;
+            case "Next":
+              stackIcon = next;
+              stackAlt = "Next";
               break;
             case "Hubspot":
               stackIcon = hubspot;

@@ -5,13 +5,21 @@ import travelme from "../../assets/images/travel-me.png";
 import zodiac from "../../assets/images/zodiac_quest.png";
 import ghlogo from "../../assets/icons/github.svg";
 import streamline from "../../assets/images/streamline.png";
-
+import axis from "../../assets/images/axis.png";
 import techblog from "../../assets/images/techblog.png";
 import notetaker from "../../assets/images/notetaker.png";
 import scheduler from "../../assets/images/scheduler.png";
 
 // The projects array contains project objects which are then each mapped onto a component which is added to the page.
 const projects = [
+  {
+    title: "Axis LTD",
+    img: axis,
+    desc: "A livestream platform that hosts creator streams - with integrated ticketing",
+    stack: ["Next", "Tailwind", "Node", "React"],
+    link: "https://axis-mu.vercel.app/",
+    repolink: "https://github.com/melissataylor1/Axis",
+  },
   {
     title: "Streamline",
     img: streamline,
