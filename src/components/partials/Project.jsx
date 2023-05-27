@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Axis LTD",
     img: axis,
-    desc: "A livestream platform that hosts creator streams - with integrated ticketing",
+    desc: "A website I built using Next.js for optimized SEO (over React) for a local contracting and locating company ",
     stack: ["Next", "Tailwind", "Node", "React"],
     link: "https://axis-mu.vercel.app/",
     repolink: "https://github.com/melissataylor1/Axis",
