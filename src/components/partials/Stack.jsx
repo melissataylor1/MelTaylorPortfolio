@@ -13,6 +13,7 @@ import graphql from "../../assets/icons/graphql.svg";
 import bootstrap from "../../assets/icons/bootstrap.svg";
 import node from "../../assets/icons/nodejs.svg";
 import mongo from "../../assets/icons/mongodb.svg";
+import hubspot from "../../assets/icons/hubspot.svg";
 import photoshop from "../../assets/icons/photoshop.svg";
 import illustrator from "../../assets/icons/illustrator.svg";
 import aftereffects from "../../assets/icons/ae.svg";
@@ -95,6 +96,10 @@ function Stack({ stack }) {
             case "Photoshop":
               stackIcon = photoshop;
               stackAlt = "Photoshop";
+              break;
+            case "Hubspot":
+              stackIcon = hubspot;
+              stackAlt = "Hubspot";
               break;
             case "Illustrator":
               stackIcon = illustrator;

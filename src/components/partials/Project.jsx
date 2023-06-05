@@ -7,6 +7,7 @@ import ghlogo from "../../assets/icons/github.svg";
 import streamline from "../../assets/images/streamline.png";
 import axis from "../../assets/images/axis.png";
 import techblog from "../../assets/images/techblog.png";
+import optimize from "../../assets/images/optimize.png";
 import notetaker from "../../assets/images/notetaker.png";
 import scheduler from "../../assets/images/scheduler.png";
 
@@ -19,6 +20,13 @@ const projects = [
     stack: ["Next", "Tailwind", "Node", "React"],
     link: "https://axis-mu.vercel.app/",
     repolink: "https://github.com/melissataylor1/Axis",
+  },
+  {
+    title: "Optimize",
+    img: optimize,
+    desc: "A website built for Optimize Wealth Management using Hubspot and custom CSS ",
+    stack: ["Hubspot", "CSS", "HTML"],
+    link: "https://optimize.ca/",
   },
   {
     title: "Streamline",
