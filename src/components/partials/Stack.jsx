@@ -8,7 +8,6 @@ import css from "../../assets/icons/css.svg";
 import html from "../../assets/icons/html.svg";
 import react from "../../assets/icons/react.svg";
 import tailwind from "../../assets/icons/tailwind.svg";
-import hubspot from "../../assets/icons/hubspot.svg";
 import graphql from "../../assets/icons/graphql.svg";
 import bootstrap from "../../assets/icons/bootstrap.svg";
 import node from "../../assets/icons/nodejs.svg";
@@ -96,10 +95,6 @@ function Stack({ stack }) {
             case "Photoshop":
               stackIcon = photoshop;
               stackAlt = "Photoshop";
-              break;
-            case "Hubspot":
-              stackIcon = hubspot;
-              stackAlt = "Hubspot";
               break;
             case "Illustrator":
               stackIcon = illustrator;
