@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MelTaylorPortfolio/static/css/main.0256c75c.css",
-    "main.js": "/MelTaylorPortfolio/static/js/main.74582baa.js",
+    "main.js": "/MelTaylorPortfolio/static/js/main.825c456b.js",
     "static/media/body5.png": "/MelTaylorPortfolio/static/media/body5.852808206412be2fbbfd.png",
     "static/media/body1.png": "/MelTaylorPortfolio/static/media/body1.4eedbe8b00436e3ee896.png",
     "static/media/body2.png": "/MelTaylorPortfolio/static/media/body2.a9b56ca48de098fd2ed0.png",
@@ -31,6 +31,7 @@
     "static/media/heart.png": "/MelTaylorPortfolio/static/media/heart.d975d7597d2af4ccb0e3.png",
     "static/media/portal2.png": "/MelTaylorPortfolio/static/media/portal2.2e2e76cca652b3902fa3.png",
     "static/media/fa-solid-900.ttf": "/MelTaylorPortfolio/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/optimize.png": "/MelTaylorPortfolio/static/media/optimize.98c0e1782c3509ae4417.png",
     "static/media/kyc3.png": "/MelTaylorPortfolio/static/media/kyc3.f0757929f16a07103463.png",
     "static/media/zoombg2.png": "/MelTaylorPortfolio/static/media/zoombg2.009d74c23cb896506581.png",
     "static/media/zodiac_quest.png": "/MelTaylorPortfolio/static/media/zodiac_quest.02715e848a9b04b43fc9.png",
@@ -101,10 +102,10 @@
     "static/media/linkedin.svg": "/MelTaylorPortfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
     "static/media/mail.svg": "/MelTaylorPortfolio/static/media/mail.6be2bab72258175fe17cce11a84145f4.svg",
     "main.0256c75c.css.map": "/MelTaylorPortfolio/static/css/main.0256c75c.css.map",
-    "main.74582baa.js.map": "/MelTaylorPortfolio/static/js/main.74582baa.js.map"
+    "main.825c456b.js.map": "/MelTaylorPortfolio/static/js/main.825c456b.js.map"
   },
   "entrypoints": [
     "static/css/main.0256c75c.css",
-    "static/js/main.74582baa.js"
+    "static/js/main.825c456b.js"
   ]
 }
