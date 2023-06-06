@@ -17,6 +17,8 @@ import body1 from "../../assets/images/graphics/body1.png";
 import body2 from "../../assets/images/graphics/body2.png";
 import body3 from "../../assets/images/graphics/body4.png";
 import body4 from "../../assets/images/graphics/body5.png";
+import hubspotad from "../../assets/images/graphics/HubspotBanner.png";
+import linkedinad from "../../assets/images/graphics/LinkedInAd.png";
 import doordash1 from "../../assets/images/graphics/doordash1.jpeg";
 import doordash2 from "../../assets/images/graphics/doordash2.jpeg";
 import doordash3 from "../../assets/images/graphics/doordash3.jpeg";
@@ -70,6 +72,14 @@ const Graphic = () => {
     {
       src: doordash1,
       caption: "DoorDash concept art. Illustrator. 2021. ",
+    },
+    {
+      src: hubspotad,
+      caption: "Hubspot Banner Ad. Photoshop and Illustrator. 2023 ",
+    },
+    {
+      src: linkedinad,
+      caption: "LinkedIn Ad. Photoshop and Illustrator. 2023 ",
     },
     {
       src: doordash2,
