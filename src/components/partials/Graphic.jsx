@@ -5,10 +5,12 @@ import Stack from "./Stack";
 
 import left from "../../assets/icons/circle-left-solid.svg";
 import right from "../../assets/icons/circle-right-solid.svg";
-import cisc1 from "../../assets/images/graphics/cisc_1.png";
+
 import cisc2 from "../../assets/images/graphics/cisc2_Page_1.png";
 import cisc3 from "../../assets/images/graphics/cisc2_Page_2.png";
+
 import cisc4 from "../../assets/images/graphics/cisc3.png";
+import cisc1 from "../../assets/images/graphics/cisc_1.png";
 import cisc6 from "../../assets/images/graphics/cisc4.png";
 import cisc5 from "../../assets/images/graphics/cisc5.png";
 import album2 from "../../assets/images/graphics/album2.jpg";
@@ -38,11 +40,6 @@ const Graphic = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
     {
-      src: cisc1,
-      caption:
-        "Canadian Institution of Steel Construction Brochure. Photoshop 2022. ",
-    },
-    {
       src: cisc2,
       caption:
         "Canadian Institution of Steel Construction Brochure. Photoshop 2022.",
@@ -57,6 +54,11 @@ const Graphic = () => {
       src: cisc4,
       caption:
         "Canadian Institution of Steel Construction Brochure. Illustrator. Photoshop 2022.",
+    },
+    {
+      src: cisc1,
+      caption:
+        "Canadian Institution of Steel Construction Brochure. Photoshop 2022. ",
     },
     {
       src: cisc5,

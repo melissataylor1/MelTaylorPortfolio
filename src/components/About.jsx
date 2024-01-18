@@ -48,11 +48,12 @@ function About(props) {
               Welcome to my portfolio! 👋
               <br />
               <br />
-              I'm a skilled front-end web developer with a passion for web
+              I'm a skilled front-end web developer with a passion for digital
               design. With over 4 years of experience, I've created engaging and
-              intuitive web experiences for users across diverse industries. My
-              expertise in HTML, CSS, JavaScript, and related technologies
-              enable me to create visually appealing and user-friendly websites.
+              intuitive digital experiences across diverse industries. My
+              experience as a digital designer paired with my expertise in HTML,
+              CSS, JavaScript, and related technologies enable me to create
+              visually appealing and user-friendly designs.
               <br /> <br />
               Recently, I have added back-end development to my skill set,
               becoming a proficient Full-Stack Developer. My knowledge of

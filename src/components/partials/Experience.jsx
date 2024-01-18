@@ -20,27 +20,25 @@ const education = [
 
 const work = [
   {
-    company: "Self-Employed",
-    title: "Freelance Digital Designer",
-    years: "2018 - now",
+    company: "Fabricland",
+    title: "Head of Design Department - Notions, Marketing Coordinator",
+    years: "June 2023 - now",
     description:
-      "Deliverabes include: Marketing and promotional material (print, digital, video, and 3D), graphic design + motion graphic design, copywriting, podcast & video production, UX/UI consulting, and web design.",
-    description2:
-      "Clients include: small businesses, financial service companies, radio stations, media companies, musicians, and startups",
+      "Lead end-to-end design for product packaging, signage, and ads with meticulous attention to detail. Manage product designs from concept to print for a cohesive visual identity. Produce captivating product videos and collaborate on market analysis, content schedules, and weekly assets. Orchestrate marketing plans, conduct market & store research, and collaborate on presentations and sales collateral.",
   },
   {
     company: "Canadian Institute of Steel Construction",
     title: "Web & Digital Media Coordinator",
     years: "October 2022 - January 2023",
     description:
-      "I created a comprehensive web and digital media strategy for a government grant program, managing website content, multimedia ads, and vendor relationships.  Working closely with stakeholders, I ensured that all media materials aligned with the branding and messaging guidelines of both the CISC and the government, and analyzed data for improvement.",
+      "Led web and digital media strategies for a government grant program, ensuring brand alignment. Produced multimedia content for platform optimization, managed vendor relationships, and collaborated for brand consistency across digital channels. Utilized data analytics for continuous optimization. Designed and implemented onboarding marketing plan, conducted SEO/SEM strategies, and stayed updated on industry trends for a competitive digital presence.",
   },
   {
     company: "Optimize Wealth Management",
     title: "Senior Marketing Specialist",
     years: "October 2021 - July 2022",
     description:
-      "Using UX/UI concepts and front-end coding, I designed and created the company's public website and internal web portal, as well as various interactive investor service tools integrating the Hubspot CRM. Additionally, I created graphic and motion assets, 3D mockups, edited videos, and wrote copy for the company's social media and websites - frequently collaborating with the CEO to shape brand strategy and define user requirements. During my tenure, I created and oversaw the development of various marketing campaigns which lead to substantial business growth.",
+      "Led design and development of company websites, integrating investor tools with Hubspot CRM. Created engaging digital content for brand visibility. Collaborated on brand strategy, oversaw data-driven campaigns for business growth. Designed onboarding plan for clients and investors, ensured marketing aligned with business objectives. Fostered innovation in the marketing team for industry relevance.",
   },
   {
     company: "Dr. Roozbeh Manshaei",
@@ -49,6 +47,15 @@ const work = [
     years: "January 2021 - June 2021",
     description:
       "Utilized Blender, Fusion 360 and Unreal Game Engine to design and execute, from thousands of 2D data points, a 3D user experience which allows users enhanced and more eﬀective data visualization and manipulation capability. ",
+  },
+  {
+    company: "Self-Employed",
+    title: "Freelance Digital Designer",
+    years: "2018 - now",
+    description:
+      "Deliverabes include: Marketing and promotional material (print, digital, video, and 3D), graphic design + motion graphic design, copywriting, podcast & video production, UX/UI consulting, and web design.",
+    description2:
+      "Clients include: small businesses, financial service companies, radio stations, media companies, musicians, and startups",
   },
 ];
 
