@@ -38,7 +38,17 @@ function Projects() {
         />
         <h2 className="about-title ">Projects</h2>
       </header>
-
+      <div className="flex justify-center mt-5">
+        <button onClick={showProjectsSection} className="mx-2">
+          Projects
+        </button>
+        <button onClick={showGraphicDesignSection} className="mx-2">
+          Graphic Design
+        </button>
+        <button onClick={showUXSection} className="mx-2">
+          UX/UI Design
+        </button>
+      </div>
       <div className="overflow-y-auto overflow-x-hidden pt-5 xl:pt-8  self-center ">
         <div className={showProjects ? "" : "hidden"}>
           <p className="chapter uppercase font-black tracking-widest text-center text-md xl:text-lg underline underline-offset-8 decoration-sky-300 decoration-4  lg:pl-10  lg:pb-10  lg:text-left pt-5 pb-8 ">
@@ -78,16 +88,16 @@ function Projects() {
         </div>
       </div>
 
-      <div className="flex justify-center mt-5">
-        <button onClick={showProjectsSection} className="mx-2">
-          Projects
-        </button>
-        <button onClick={showGraphicDesignSection} className="mx-2">
-          Graphic Design
-        </button>
-        <button onClick={showUXSection} className="mx-2">
-          UX/UI Design
-        </button>
+      <div className="bg-neutral-900 border-y border-neutral-500 py-5 text-white">
+        <p className=" text-center text-sm ">
+          Made with ❤️ and React{" "}
+          <img
+            className="w-4 inline self-center"
+            src={react}
+            alt="User icon on a book"
+          />{" "}
+          <p className="italic inline">by Mel Taylor</p>
+        </p>
       </div>
     </div>
   );
