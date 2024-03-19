@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MelTaylorPortfolio/static/css/main.0256c75c.css",
-    "main.js": "/MelTaylorPortfolio/static/js/main.61665972.js",
+    "main.css": "/MelTaylorPortfolio/static/css/main.122fa129.css",
+    "main.js": "/MelTaylorPortfolio/static/js/main.f21a376c.js",
     "static/media/body5.png": "/MelTaylorPortfolio/static/media/body5.852808206412be2fbbfd.png",
     "static/media/body1.png": "/MelTaylorPortfolio/static/media/body1.4eedbe8b00436e3ee896.png",
     "static/media/body2.png": "/MelTaylorPortfolio/static/media/body2.a9b56ca48de098fd2ed0.png",
@@ -103,11 +103,11 @@
     "static/media/heroku.svg": "/MelTaylorPortfolio/static/media/heroku.b7e7f910d905c15ac7d6cca770ba02b0.svg",
     "static/media/linkedin.svg": "/MelTaylorPortfolio/static/media/linkedin.40a13fa6d0f4d2d559f3eee07c5c359e.svg",
     "static/media/mail.svg": "/MelTaylorPortfolio/static/media/mail.6be2bab72258175fe17cce11a84145f4.svg",
-    "main.0256c75c.css.map": "/MelTaylorPortfolio/static/css/main.0256c75c.css.map",
-    "main.61665972.js.map": "/MelTaylorPortfolio/static/js/main.61665972.js.map"
+    "main.122fa129.css.map": "/MelTaylorPortfolio/static/css/main.122fa129.css.map",
+    "main.f21a376c.js.map": "/MelTaylorPortfolio/static/js/main.f21a376c.js.map"
   },
   "entrypoints": [
-    "static/css/main.0256c75c.css",
-    "static/js/main.61665972.js"
+    "static/css/main.122fa129.css",
+    "static/js/main.f21a376c.js"
   ]
 }
