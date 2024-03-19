@@ -63,6 +63,13 @@ export default [
             "Designed and created the companys public website,  internal web portal, and various interactive investor-service tools. Additionally, I created and oversaw the development and implementation of various marketing campaigns that contributed to a substantial growth in business assets during my tenure.",
         },
         {
+          company: "Fabricland",
+          title: "Senior Digital Designer & Marketing Coordinator",
+          years: "June 2023 - now",
+          description:
+            "Lead end-to-end design for product packaging, signage, and ads with meticulous attention to detail. Manage product designs from concept to print for a cohesive visual identity. Produce captivating product videos and collaborate on market analysis, content schedules, and weekly assets. Orchestrate marketing plans, conduct market & store research, and collaborate on presentations and sales collateral.",
+        },
+        {
           company:
             "Dr. Roozbeh Manshaei , Senior Bio-Informatician, Ted Rogers Cardiac Genome Clinic ",
           title: "UX Assistantr",

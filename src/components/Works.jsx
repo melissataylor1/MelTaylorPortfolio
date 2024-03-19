@@ -39,13 +39,22 @@ function Projects() {
         <h2 className="about-title ">Projects</h2>
       </header>
       <div className="flex justify-center mt-5">
-        <button onClick={showProjectsSection} className="mx-2">
+        <button
+          onClick={showProjectsSection}
+          className="mx-2 focus:outline-none transform transition-all duration-300 hover:scale-110 bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 px-4 rounded-lg"
+        >
           Projects
         </button>
-        <button onClick={showGraphicDesignSection} className="mx-2">
+        <button
+          onClick={showGraphicDesignSection}
+          className="mx-2 focus:outline-none transform transition-all duration-300 hover:scale-110 bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 px-4 rounded-lg"
+        >
           Graphic Design
         </button>
-        <button onClick={showUXSection} className="mx-2">
+        <button
+          onClick={showUXSection}
+          className="mx-2 focus:outline-none transform transition-all duration-300 hover:scale-110 bg-gradient-to-r from-pink-500 to-purple-600 text-white py-2 px-4 rounded-lg"
+        >
           UX/UI Design
         </button>
       </div>
@@ -86,18 +95,6 @@ function Projects() {
             <p className="italic inline">by Mel Taylor</p>
           </p>
         </div>
-      </div>
-
-      <div className="bg-neutral-900 border-y border-neutral-500 py-5 text-white">
-        <p className=" text-center text-sm ">
-          Made with ❤️ and React{" "}
-          <img
-            className="w-4 inline self-center"
-            src={react}
-            alt="User icon on a book"
-          />{" "}
-          <p className="italic inline">by Mel Taylor</p>
-        </p>
       </div>
     </div>
   );
