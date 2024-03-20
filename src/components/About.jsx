@@ -67,7 +67,7 @@ function About(props) {
             <br />
           </div>
           <p className="text-center italic text-sm lg:text-md mt-8 sm:mt-16 lg:mt-24 pb-10">
-            Last Updated: 01/17/2024
+            Last Updated: 03/19/2024
           </p>
           <p className="bg-neutral-900 border-y border-neutral-500 py-5 text-center text-sm self-end">
             Made with ❤️ and React{" "}
