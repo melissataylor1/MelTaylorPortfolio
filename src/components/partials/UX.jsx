@@ -1,15 +1,10 @@
-import React, { useState } from "react";
-import Stack from "./Stack";
+import React from "react";
 
 // Icons/Logos
 
 import graph1 from "../../assets/images/ux/graph1.png";
 import graph2 from "../../assets/images/ux/graph2.jpeg";
 import graph3 from "../../assets/images/ux/graph2copy.jpeg";
-import home1 from "../../assets/images/ux/home1.jpeg";
-import home2 from "../../assets/images/ux/home2.jpeg";
-import home3 from "../../assets/images/ux/home3.jpeg";
-import home4 from "../../assets/images/ux/home5.jpeg";
 import kyc1 from "../../assets/images/ux/kyc1.png";
 import kyc2 from "../../assets/images/ux/kyc2.png";
 import kyc3 from "../../assets/images/ux/kyc3.png";
@@ -24,20 +19,24 @@ import portal3 from "../../assets/images/ux/portal3.png";
 import portal4 from "../../assets/images/ux/portal4.png";
 
 const UX = () => {
-  const [currentImage, setCurrentImage] = useState(0);
   const images = [
     {
       src: graph1,
+      caption: "Portfolio Managment Dashboard Mockup A",
+    },
+    {
+      src: kyc8,
+      caption: "Portfolio Managment Dashboard Mockup B",
+    },
+    {
+      src: graph3,
       caption: "Portfolio Managment Dashboard",
     },
     {
       src: graph2,
       caption: "Portfolio Managment Dashboard",
     },
-    {
-      src: graph3,
-      caption: "Portfolio Managment Dashboard",
-    },
+
     {
       src: kyc1,
       caption: "Know Your Client Quiz Interface",
@@ -67,11 +66,6 @@ const UX = () => {
     },
 
     {
-      src: kyc8,
-      caption: "Portfolio Managment Dashboard",
-    },
-
-    {
       src: kyc9,
       caption: "Portfolio Managment Dashboard",
     },
@@ -94,30 +88,22 @@ const UX = () => {
     },
   ];
 
-  const handlePrev = () => {
-    setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
-  };
-
-  const handleNext = () => {
-    setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
-  };
-
   return (
-    <div className="carousel 2xl:carousel-ux">
-      <img
-        src={images[currentImage].src}
-        alt={images[currentImage].caption}
-        className="carousel-image 2xl:carousel-image-ux mx-auto rounded-md"
-      />
-      <div className="caption font-extralight">
-        {images[currentImage].caption}
-      </div>
-      <button className="prev-button" onClick={handlePrev}>
-        <i class="fa-solid fa-circle-chevron-left text-2xl md:text-4xl "></i>
-      </button>
-      <button className="next-button " onClick={handleNext}>
-        <i class="fa-solid fa-circle-chevron-right text-2xl md:text-4xl"></i>
-      </button>
+    <div className="grid gap-y-5 md:gap-y-8 lg:gap-5 xl:gap-10 w-11/12 mx-auto xl:grid-cols-2 grid-cols-1">
+      {images.map((image, index) => (
+        <div key={index} className="relative">
+          <div className="hover:project-card-hover shadow-lg shadow-black bg-zinc-800 rounded-md">
+            <div className="flex justify-center items-center p-5">
+              <img
+                src={image.src}
+                alt={image.caption}
+                className="object-cover max-h-screen/2 rounded-md rounded-md"
+              />
+            </div>
+            <div className="text-center p-4">{image.caption}</div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

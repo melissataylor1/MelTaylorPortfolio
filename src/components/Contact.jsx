@@ -22,7 +22,7 @@ function Contact() {
         <div className="lg:grid lg:grid-cols-2 space-evenly">
           <div class="lg:col-span-1">
             <h2 class="contact-links-h2 text-5xl text-center">Contact</h2>{" "}
-            <a href="mailto:meltee@live.com">
+            <a href="mailto:melissa.taylor00@hotmail.com">
               {" "}
               <p className="text-center text-xl mt-10">meltee@live.com</p>
             </a>{" "}

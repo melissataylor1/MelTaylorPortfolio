@@ -1,11 +1,5 @@
-import React, { useState } from "react";
-import Stack from "./Stack";
-
+import React from "react";
 // Icons/Logos
-
-import left from "../../assets/icons/circle-left-solid.svg";
-import right from "../../assets/icons/circle-right-solid.svg";
-
 import cisc2 from "../../assets/images/graphics/cisc2_Page_1.png";
 import cisc3 from "../../assets/images/graphics/cisc2_Page_2.png";
 
@@ -37,10 +31,10 @@ import zoombg1 from "../../assets/images/graphics/zoombg1.png";
 import zoombg2 from "../../assets/images/graphics/zoombg2.png";
 
 const Graphic = () => {
-  const [currentImage, setCurrentImage] = useState(0);
   const images = [
     {
       src: cisc2,
+      stack: ["Next", "Tailwind", "Node", "React"],
       caption:
         "Canadian Institution of Steel Construction Brochure. Photoshop 2022.",
     },
@@ -65,6 +59,7 @@ const Graphic = () => {
       caption:
         "Canadian Institution of Steel Construction Brochure. Illustrator. Photoshop 2022.",
     },
+
     {
       src: cisc6,
       caption:
@@ -72,16 +67,16 @@ const Graphic = () => {
     },
 
     {
-      src: doordash1,
-      caption: "DoorDash concept art. Illustrator. 2021. ",
-    },
-    {
       src: hubspotad,
       caption: "Hubspot Banner Ad. Photoshop and Illustrator. 2023 ",
     },
     {
       src: linkedinad,
       caption: "LinkedIn Ad. Photoshop and Illustrator. 2023 ",
+    },
+    {
+      src: doordash1,
+      caption: "DoorDash concept art. Illustrator. 2021. ",
     },
     {
       src: doordash2,
@@ -172,36 +167,22 @@ const Graphic = () => {
     },
   ];
 
-  const handlePrev = () => {
-    setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
-  };
-
-  const handleNext = () => {
-    setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
-  };
-
   return (
-    <div className="carousel ">
-      <img
-        src={images[currentImage].src}
-        alt={images[currentImage].caption}
-        className="carousel-image mx-auto rounded-md"
-      />
-      <div className="caption font-extralight">
-        {images[currentImage].caption}
-      </div>
-      <button
-        className="prev-button lg:prev-button2 xl:prev-button3"
-        onClick={handlePrev}
-      >
-        <i class="fa-solid fa-circle-chevron-left text-2xl md:text-4xl"></i>
-      </button>
-      <button
-        className="next-button lg:next-button2 xl:next-button3"
-        onClick={handleNext}
-      >
-        <i class="fa-solid fa-circle-chevron-right text-2xl md:text-4xl"></i>
-      </button>
+    <div className="grid gap-y-5 md:gap-y-8 lg:gap-5 xl:gap-10 w-11/12 mx-auto xl:grid-cols-2 grid-cols-1">
+      {images.map((image, index) => (
+        <div key={index} className="relative">
+          <div className="hover:project-card-hover shadow-lg shadow-black bg-zinc-800 rounded-md">
+            <div className="flex justify-center items-center p-5">
+              <img
+                src={image.src}
+                alt={image.caption}
+                className="object-cover max-h-screen/2 rounded-md rounded-md"
+              />
+            </div>
+            <div className="text-center p-4">{image.caption}</div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };

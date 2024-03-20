@@ -12,8 +12,7 @@ import contactsvg from "../assets/icons/contact.svg";
 import githubsvg from "../assets/icons/github.svg";
 import linkedinsvg from "../assets/icons/linkedin.svg";
 import mailsvg from "../assets/icons/mail.svg";
-import resume from "../assets/melissataylor_resume_2023.pdf";
-
+import resume from "../assets/24_02MelissaTaylorResume.pdf";
 // Mobile Burger Menu Styles
 var styles = {
   bmBurgerButton: {
@@ -185,7 +184,7 @@ function Navbar({ view, setView }) {
               {/* Gmail */}
               <a
                 className=" hover:-translate-y-1 duration-500 rounded-full"
-                href="mailto:meltee@live.com"
+                href="mailto:melissa.taylor00@hotmail.com"
                 target="_blank"
                 rel="noreferrer"
                 name="Link to create and send an email."
